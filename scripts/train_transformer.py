@@ -1,7 +1,7 @@
-"""Fine-tune a HF encoder for --task speaker|pair. Meant for a Colab GPU (T4 is fine).
+"""Fine-tune a HF encoder (e.g. RoBERTa) for --task rachel|partner on any GPU.
 
-  python scripts/train_transformer.py --task speaker --model roberta-base
-  python scripts/train_transformer.py --task pair --model roberta-base --max-len 512 --epochs 6
+  python scripts/train_transformer.py --task rachel --model roberta-base
+  python scripts/train_transformer.py --task partner --model roberta-base --epochs 6
 
 A small validation set (episode-grouped, carved from train) picks the best epoch;
 the test split is evaluated once at the end.
@@ -59,7 +59,7 @@ def predict(model, loader, device):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--task", choices=["speaker", "pair"], required=True)
+    ap.add_argument("--task", choices=["rachel", "partner"], required=True)
     ap.add_argument("--model", default="roberta-base")
     ap.add_argument("--data-dir", default="data/classifiers")
     ap.add_argument("--out-dir", default="results/classifiers")
@@ -67,12 +67,12 @@ def main():
     ap.add_argument("--epochs", type=int, default=3)
     ap.add_argument("--lr", type=float, default=2e-5)
     ap.add_argument("--batch-size", type=int, default=32)
-    ap.add_argument("--max-len", type=int, default=None, help="default: 64 speaker, 512 pair")
+    ap.add_argument("--max-len", type=int, default=None, help="default 64")
     ap.add_argument("--val-frac", type=float, default=0.1)
     ap.add_argument("--limit", type=int, default=None, help="debug: cap rows per split")
     ap.add_argument("--seed", type=int, default=42)
     args = ap.parse_args()
-    max_len = args.max_len or (64 if args.task == "speaker" else 512)
+    max_len = args.max_len or 64
 
     random.seed(args.seed)
     np.random.seed(args.seed)

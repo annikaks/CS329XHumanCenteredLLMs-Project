@@ -1,12 +1,12 @@
-"""Score generated Person A responses with the trained classifiers.
+"""Score generated Rachel (Person A) responses with the two classifiers.
 
 Input: a results JSON like results/baseline/mistral_mixed_fewshot_baseline.json
-(fields: context, gold_response, generated_response, actual_partner).
+(fields: gold_response, generated_response, actual_partner in {"Person B", "Person C"}).
 
-speaker: P(Rachel | response), gold vs generated.
-pair:    context + response as an S1/S2 transcript -> P(true pair), and accuracy when
-         the decision is restricted to {Rachel-Ross, Monica-Rachel}. The context is
-         shared, so the gold-vs-generated gap is what the single response contributes.
+rachel:  P(Rachel | response), gold vs generated.
+partner: P(partner | response) from Rachel's line alone (no context: the context is real dialogue and would
+         give the partner away). Reported per true partner, plus the gap
+         mean P(Ross) in Ross scenes - mean P(Ross) in Monica scenes, for gold vs generated.
 """
 import argparse
 import json
@@ -19,64 +19,83 @@ import numpy as np
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
 from friends.masking import mask_names
 
-PARTNER_TO_PAIR = {"Person B": "Rachel-Ross", "Person C": "Monica-Rachel"}
+PARTNER_OF = {"Person B": "Ross", "Person C": "Monica"}
 
 
-def as_transcript(context, response):
-    turns = context + [{"speaker": "Person A", "text": response}]
-    order = list(dict.fromkeys(t["speaker"] for t in turns))
-    alias = {sp: f"S{i + 1}" for i, sp in enumerate(order)}
-    texts = mask_names([t["text"] for t in turns])
-    return "\n".join(f"{alias[t['speaker']]}: {x}" for t, x in zip(turns, texts))
+class HFClassifier:
+    """Wraps a fine-tuned checkpoint dir with the sklearn predict_proba/classes_ interface."""
+
+    def __init__(self, path, max_len=64, batch_size=64):
+        import torch
+        from transformers import AutoModelForSequenceClassification, AutoTokenizer
+
+        self.torch = torch
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.tok = AutoTokenizer.from_pretrained(path)
+        self.model = AutoModelForSequenceClassification.from_pretrained(path).to(self.device).eval()
+        cfg = self.model.config.id2label
+        self.classes_ = np.array([cfg[i] for i in range(len(cfg))])
+        self.max_len, self.batch_size = max_len, batch_size
+
+    def predict_proba(self, texts):
+        out = []
+        with self.torch.no_grad():
+            for i in range(0, len(texts), self.batch_size):
+                enc = self.tok(list(texts[i:i + self.batch_size]), truncation=True, max_length=self.max_len,
+                               padding=True, return_tensors="pt").to(self.device)
+                out.append(self.torch.softmax(self.model(**enc).logits.float(), -1).cpu().numpy())
+        return np.concatenate(out)
+
+
+def load_model(path, task):
+    """.joblib (TF-IDF), an HF checkpoint dir, a tinker:// sampler path, or "tinker" (use the registry)."""
+    if path.endswith(".joblib"):
+        return joblib.load(path)
+    if path == "tinker" or path.startswith("tinker://"):
+        from friends.tinker_clf import TinkerClassifier
+        return TinkerClassifier(task, sampler_path=None if path == "tinker" else path)
+    return HFClassifier(path)
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--results", default="results/baseline/mistral_mixed_fewshot_baseline.json")
-    ap.add_argument("--speaker-model", default="models/speaker_tfidf.joblib")
-    ap.add_argument("--pair-model", default="models/pair_tfidf.joblib")
+    ap.add_argument("--rachel-model", default="models/rachel_tfidf.joblib", help=".joblib, HF dir, tinker://..., or 'tinker'")
+    ap.add_argument("--partner-model", default="models/partner_tfidf.joblib", help=".joblib, HF dir, tinker://..., or 'tinker'")
     ap.add_argument("--out", default="results/classifiers/baseline_generation_scores.json")
     args = ap.parse_args()
 
     with open(args.results, encoding="utf-8") as f:
         rows = json.load(f)
-    spk = joblib.load(args.speaker_model)
-    pair = joblib.load(args.pair_model)
-    rachel = list(spk.classes_).index("Rachel")
-    pclasses = list(pair.classes_)
-    two = [pclasses.index("Rachel-Ross"), pclasses.index("Monica-Rachel")]
+    rachel = load_model(args.rachel_model, "rachel")
+    partner = load_model(args.partner_model, "partner")
+    r_idx = list(rachel.classes_).index("Rachel")
+    pclasses = list(partner.classes_)
+    truth = np.array([PARTNER_OF[r["actual_partner"]] for r in rows])
 
-    summary, per_example = {}, []
+    summary, examples = {}, [{"conversation_id": r["conversation_id"], "partner": t} for r, t in zip(rows, truth)]
     for field in ["gold_response", "generated_response"]:
-        resp = mask_names([r[field] for r in rows])
-        ps = spk.predict_proba(resp)
-        trans = [as_transcript(r["context"], r[field]) for r in rows]
-        pp = pair.predict_proba(trans)
-        truth = [pclasses.index(PARTNER_TO_PAIR[r["actual_partner"]]) for r in rows]
-        p_true = pp[np.arange(len(rows)), truth]
-        two_way_pred = [two[i] for i in pp[:, two].argmax(1)]
+        texts = mask_names([r[field] for r in rows])
+        p_r = rachel.predict_proba(texts)[:, r_idx]
+        P = partner.predict_proba(texts)
+        p_true = P[np.arange(len(rows)), [pclasses.index(t) for t in truth]]
+        ross, mon = pclasses.index("Ross"), pclasses.index("Monica")
         summary[field] = {
-            "speaker_mean_P_rachel": float(ps[:, rachel].mean()),
-            "speaker_top1_rachel_rate": float((ps.argmax(1) == rachel).mean()),
-            "pair_mean_P_true_pair": float(p_true.mean()),
-            "pair_top1_acc_15way": float((pp.argmax(1) == np.array(truth)).mean()),
-            "pair_acc_restricted_AB_vs_AC": float((np.array(two_way_pred) == np.array(truth)).mean()),
+            "mean_P_rachel": float(p_r.mean()),
+            "mean_P_true_partner": float(p_true.mean()),
+            "ross_gap": float(P[truth == "Ross", ross].mean() - P[truth == "Monica", ross].mean()),
+            "monica_gap": float(P[truth == "Monica", mon].mean() - P[truth == "Ross", mon].mean()),
+            "ross_vs_monica_acc": float(((P[:, ross] > P[:, mon]) == (truth == "Ross")).mean()),
         }
-        for i, r in enumerate(rows):
-            if len(per_example) <= i:
-                per_example.append({"conversation_id": r["conversation_id"], "actual_partner": r["actual_partner"]})
-            per_example[i][field] = {
-                "P_rachel": float(ps[i, rachel]),
-                "speaker_top1": spk.classes_[ps[i].argmax()],
-                "P_true_pair": float(p_true[i]),
-                "pair_top1": pclasses[pp[i].argmax()],
-            }
+        for e, a, b, c in zip(examples, p_r, p_true, P):
+            e[field] = {"P_rachel": float(a), "P_true_partner": float(b),
+                        "partner_probs": {k: round(float(v), 4) for k, v in zip(pclasses, c)}}
 
-    out = {"n": len(rows), "summary": summary, "examples": per_example}
+    out = {"n": len(rows), "summary": summary, "examples": examples}
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
     with open(args.out, "w") as f:
         json.dump(out, f, indent=2)
-    print(json.dumps(out["summary"], indent=2))
+    print(json.dumps(summary, indent=2))
 
 
 if __name__ == "__main__":
