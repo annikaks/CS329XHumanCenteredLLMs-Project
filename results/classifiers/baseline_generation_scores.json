@@ -1,0 +1,661 @@
+{
+  "n": 40,
+  "summary": {
+    "gold_response": {
+      "speaker_mean_P_rachel": 0.18707762942677092,
+      "speaker_top1_rachel_rate": 0.25,
+      "pair_mean_P_true_pair": 0.09259731726913784,
+      "pair_top1_acc_15way": 0.325,
+      "pair_acc_restricted_AB_vs_AC": 0.7
+    },
+    "generated_response": {
+      "speaker_mean_P_rachel": 0.13769451402392424,
+      "speaker_top1_rachel_rate": 0.075,
+      "pair_mean_P_true_pair": 0.08935965260403404,
+      "pair_top1_acc_15way": 0.275,
+      "pair_acc_restricted_AB_vs_AC": 0.625
+    }
+  },
+  "examples": [
+    {
+      "conversation_id": "s03_e05_c14_u001",
+      "actual_partner": "Person B",
+      "gold_response": {
+        "P_rachel": 0.21448921212177227,
+        "speaker_top1": "Rachel",
+        "P_true_pair": 0.07392507337834395,
+        "pair_top1": "Phoebe-Ross"
+      },
+      "generated_response": {
+        "P_rachel": 0.10960988015235805,
+        "speaker_top1": "Joey",
+        "P_true_pair": 0.0610156428128246,
+        "pair_top1": "Phoebe-Ross"
+      }
+    },
+    {
+      "conversation_id": "s02_e07_c11_u001",
+      "actual_partner": "Person B",
+      "gold_response": {
+        "P_rachel": 0.08169318575276553,
+        "speaker_top1": "Joey",
+        "P_true_pair": 0.2001249550593176,
+        "pair_top1": "Rachel-Ross"
+      },
+      "generated_response": {
+        "P_rachel": 0.11427712956558739,
+        "speaker_top1": "Phoebe",
+        "P_true_pair": 0.21945033165924482,
+        "pair_top1": "Rachel-Ross"
+      }
+    },
+    {
+      "conversation_id": "s01_e05_c12_u001",
+      "actual_partner": "Person B",
+      "gold_response": {
+        "P_rachel": 0.18908000744743161,
+        "speaker_top1": "Monica",
+        "P_true_pair": 0.13235685096374697,
+        "pair_top1": "Rachel-Ross"
+      },
+      "generated_response": {
+        "P_rachel": 0.12803879605626017,
+        "speaker_top1": "Joey",
+        "P_true_pair": 0.12383379823865195,
+        "pair_top1": "Rachel-Ross"
+      }
+    },
+    {
+      "conversation_id": "s01_e09_c10_u001",
+      "actual_partner": "Person C",
+      "gold_response": {
+        "P_rachel": 0.1545183993643077,
+        "speaker_top1": "Chandler",
+        "P_true_pair": 0.05153221547296769,
+        "pair_top1": "Chandler-Monica"
+      },
+      "generated_response": {
+        "P_rachel": 0.10873075359267939,
+        "speaker_top1": "Monica",
+        "P_true_pair": 0.04887142367385466,
+        "pair_top1": "Chandler-Ross"
+      }
+    },
+    {
+      "conversation_id": "s03_e25_c05_u001",
+      "actual_partner": "Person C",
+      "gold_response": {
+        "P_rachel": 0.39496144875167283,
+        "speaker_top1": "Rachel",
+        "P_true_pair": 0.07592471936982648,
+        "pair_top1": "Rachel-Ross"
+      },
+      "generated_response": {
+        "P_rachel": 0.14133965272879606,
+        "speaker_top1": "Chandler",
+        "P_true_pair": 0.06451533104952034,
+        "pair_top1": "Chandler-Ross"
+      }
+    },
+    {
+      "conversation_id": "s04_e24_c19_u001",
+      "actual_partner": "Person C",
+      "gold_response": {
+        "P_rachel": 0.35455354212171536,
+        "speaker_top1": "Rachel",
+        "P_true_pair": 0.1472919850838387,
+        "pair_top1": "Monica-Rachel"
+      },
+      "generated_response": {
+        "P_rachel": 0.31155739931322113,
+        "speaker_top1": "Rachel",
+        "P_true_pair": 0.14949045953106538,
+        "pair_top1": "Monica-Rachel"
+      }
+    },
+    {
+      "conversation_id": "s05_e20_c08_u001",
+      "actual_partner": "Person C",
+      "gold_response": {
+        "P_rachel": 0.15359457926798029,
+        "speaker_top1": "Phoebe",
+        "P_true_pair": 0.054290986004402714,
+        "pair_top1": "Joey-Ross"
+      },
+      "generated_response": {
+        "P_rachel": 0.11414576032721879,
+        "speaker_top1": "Ross",
+        "P_true_pair": 0.05463798910423133,
+        "pair_top1": "Joey-Ross"
+      }
+    },
+    {
+      "conversation_id": "s05_e07_c09_u001",
+      "actual_partner": "Person C",
+      "gold_response": {
+        "P_rachel": 0.19545139645650725,
+        "speaker_top1": "Rachel",
+        "P_true_pair": 0.06047681929361502,
+        "pair_top1": "Joey-Ross"
+      },
+      "generated_response": {
+        "P_rachel": 0.13092135305351435,
+        "speaker_top1": "Phoebe",
+        "P_true_pair": 0.0641878972564647,
+        "pair_top1": "Chandler-Monica"
+      }
+    },
+    {
+      "conversation_id": "s02_e02_c08_u001",
+      "actual_partner": "Person C",
+      "gold_response": {
+        "P_rachel": 0.2188534885066703,
+        "speaker_top1": "Phoebe",
+        "P_true_pair": 0.08286579495018735,
+        "pair_top1": "Rachel-Ross"
+      },
+      "generated_response": {
+        "P_rachel": 0.1019620755466581,
+        "speaker_top1": "Monica",
+        "P_true_pair": 0.06500169161489133,
+        "pair_top1": "Rachel-Ross"
+      }
+    },
+    {
+      "conversation_id": "s04_e21_c28_u001",
+      "actual_partner": "Person C",
+      "gold_response": {
+        "P_rachel": 0.12692444262187552,
+        "speaker_top1": "Phoebe",
+        "P_true_pair": 0.05609974542215993,
+        "pair_top1": "Joey-Ross"
+      },
+      "generated_response": {
+        "P_rachel": 0.12141822834614968,
+        "speaker_top1": "Joey",
+        "P_true_pair": 0.05344204078702856,
+        "pair_top1": "Joey-Ross"
+      }
+    },
+    {
+      "conversation_id": "s09_e20_c01_u000",
+      "actual_partner": "Person C",
+      "gold_response": {
+        "P_rachel": 0.09646366962109122,
+        "speaker_top1": "Ross",
+        "P_true_pair": 0.07806786457346052,
+        "pair_top1": "Joey-Rachel"
+      },
+      "generated_response": {
+        "P_rachel": 0.1573498712629245,
+        "speaker_top1": "Phoebe",
+        "P_true_pair": 0.08729510431623598,
+        "pair_top1": "Chandler-Ross"
+      }
+    },
+    {
+      "conversation_id": "s02_e08_c05_u001",
+      "actual_partner": "Person C",
+      "gold_response": {
+        "P_rachel": 0.1893459859567335,
+        "speaker_top1": "Monica",
+        "P_true_pair": 0.04900724564786514,
+        "pair_top1": "Monica-Ross"
+      },
+      "generated_response": {
+        "P_rachel": 0.3713927476275873,
+        "speaker_top1": "Rachel",
+        "P_true_pair": 0.07541960117576106,
+        "pair_top1": "Chandler-Rachel"
+      }
+    },
+    {
+      "conversation_id": "s10_e17_c02_u000",
+      "actual_partner": "Person B",
+      "gold_response": {
+        "P_rachel": 0.11107522860731309,
+        "speaker_top1": "Joey",
+        "P_true_pair": 0.057792394309666595,
+        "pair_top1": "Chandler-Ross"
+      },
+      "generated_response": {
+        "P_rachel": 0.1387073398793689,
+        "speaker_top1": "Phoebe",
+        "P_true_pair": 0.045837094532606544,
+        "pair_top1": "Chandler-Monica"
+      }
+    },
+    {
+      "conversation_id": "s01_e24_c08_u001",
+      "actual_partner": "Person C",
+      "gold_response": {
+        "P_rachel": 0.13874954596282194,
+        "speaker_top1": "Chandler",
+        "P_true_pair": 0.11429584896244951,
+        "pair_top1": "Monica-Rachel"
+      },
+      "generated_response": {
+        "P_rachel": 0.14568014203454555,
+        "speaker_top1": "Chandler",
+        "P_true_pair": 0.08689977773758806,
+        "pair_top1": "Chandler-Phoebe"
+      }
+    },
+    {
+      "conversation_id": "s03_e15_c04_u001",
+      "actual_partner": "Person B",
+      "gold_response": {
+        "P_rachel": 0.2769169751041963,
+        "speaker_top1": "Rachel",
+        "P_true_pair": 0.07119796245627613,
+        "pair_top1": "Chandler-Joey"
+      },
+      "generated_response": {
+        "P_rachel": 0.13566949447435472,
+        "speaker_top1": "Monica",
+        "P_true_pair": 0.07533272242050139,
+        "pair_top1": "Chandler-Monica"
+      }
+    },
+    {
+      "conversation_id": "s02_e01_c07_u001",
+      "actual_partner": "Person B",
+      "gold_response": {
+        "P_rachel": 0.10933267433959593,
+        "speaker_top1": "Ross",
+        "P_true_pair": 0.07314886165053519,
+        "pair_top1": "Joey-Rachel"
+      },
+      "generated_response": {
+        "P_rachel": 0.13680601696101732,
+        "speaker_top1": "Chandler",
+        "P_true_pair": 0.09484174165896227,
+        "pair_top1": "Chandler-Ross"
+      }
+    },
+    {
+      "conversation_id": "s10_e09_c05_u000",
+      "actual_partner": "Person B",
+      "gold_response": {
+        "P_rachel": 0.16611270123671396,
+        "speaker_top1": "Joey",
+        "P_true_pair": 0.12712906833795387,
+        "pair_top1": "Rachel-Ross"
+      },
+      "generated_response": {
+        "P_rachel": 0.14486195904799617,
+        "speaker_top1": "Ross",
+        "P_true_pair": 0.08159231484976932,
+        "pair_top1": "Joey-Rachel"
+      }
+    },
+    {
+      "conversation_id": "s05_e01_c08_u001",
+      "actual_partner": "Person B",
+      "gold_response": {
+        "P_rachel": 0.23816652092708432,
+        "speaker_top1": "Rachel",
+        "P_true_pair": 0.18301452254074096,
+        "pair_top1": "Rachel-Ross"
+      },
+      "generated_response": {
+        "P_rachel": 0.10163514981138048,
+        "speaker_top1": "Monica",
+        "P_true_pair": 0.14791423143482257,
+        "pair_top1": "Rachel-Ross"
+      }
+    },
+    {
+      "conversation_id": "s04_e24_c19_u001",
+      "actual_partner": "Person C",
+      "gold_response": {
+        "P_rachel": 0.11148830403320685,
+        "speaker_top1": "Phoebe",
+        "P_true_pair": 0.2219496841839589,
+        "pair_top1": "Monica-Rachel"
+      },
+      "generated_response": {
+        "P_rachel": 0.12000083998912515,
+        "speaker_top1": "Chandler",
+        "P_true_pair": 0.17674018324779994,
+        "pair_top1": "Monica-Rachel"
+      }
+    },
+    {
+      "conversation_id": "s07_e16_c12_u001",
+      "actual_partner": "Person B",
+      "gold_response": {
+        "P_rachel": 0.1964566160188778,
+        "speaker_top1": "Monica",
+        "P_true_pair": 0.09467842998053005,
+        "pair_top1": "Phoebe-Rachel"
+      },
+      "generated_response": {
+        "P_rachel": 0.1408752033627048,
+        "speaker_top1": "Monica",
+        "P_true_pair": 0.10197015944734493,
+        "pair_top1": "Joey-Monica"
+      }
+    },
+    {
+      "conversation_id": "s09_e05_c12_u000",
+      "actual_partner": "Person B",
+      "gold_response": {
+        "P_rachel": 0.18184128660502347,
+        "speaker_top1": "Phoebe",
+        "P_true_pair": 0.10334387089035524,
+        "pair_top1": "Phoebe-Ross"
+      },
+      "generated_response": {
+        "P_rachel": 0.11691579363046173,
+        "speaker_top1": "Chandler",
+        "P_true_pair": 0.10582046339863795,
+        "pair_top1": "Rachel-Ross"
+      }
+    },
+    {
+      "conversation_id": "s02_e05_c07_u001",
+      "actual_partner": "Person B",
+      "gold_response": {
+        "P_rachel": 0.2042102159506938,
+        "speaker_top1": "Monica",
+        "P_true_pair": 0.0780612554922356,
+        "pair_top1": "Chandler-Rachel"
+      },
+      "generated_response": {
+        "P_rachel": 0.13439267288033752,
+        "speaker_top1": "Monica",
+        "P_true_pair": 0.0741994330888678,
+        "pair_top1": "Joey-Phoebe"
+      }
+    },
+    {
+      "conversation_id": "s01_e21_c02_u001",
+      "actual_partner": "Person C",
+      "gold_response": {
+        "P_rachel": 0.2505122374133821,
+        "speaker_top1": "Phoebe",
+        "P_true_pair": 0.10060965220884138,
+        "pair_top1": "Monica-Rachel"
+      },
+      "generated_response": {
+        "P_rachel": 0.09453888758866859,
+        "speaker_top1": "Chandler",
+        "P_true_pair": 0.1027176445844119,
+        "pair_top1": "Monica-Rachel"
+      }
+    },
+    {
+      "conversation_id": "s02_e04_c11_u001",
+      "actual_partner": "Person B",
+      "gold_response": {
+        "P_rachel": 0.2904824405498061,
+        "speaker_top1": "Phoebe",
+        "P_true_pair": 0.16933685506852644,
+        "pair_top1": "Rachel-Ross"
+      },
+      "generated_response": {
+        "P_rachel": 0.08958978715342329,
+        "speaker_top1": "Monica",
+        "P_true_pair": 0.14196567038114916,
+        "pair_top1": "Rachel-Ross"
+      }
+    },
+    {
+      "conversation_id": "s02_e02_c08_u001",
+      "actual_partner": "Person C",
+      "gold_response": {
+        "P_rachel": 0.1271838146397201,
+        "speaker_top1": "Joey",
+        "P_true_pair": 0.06519040698986306,
+        "pair_top1": "Rachel-Ross"
+      },
+      "generated_response": {
+        "P_rachel": 0.09304196925573163,
+        "speaker_top1": "Monica",
+        "P_true_pair": 0.06718533703368348,
+        "pair_top1": "Rachel-Ross"
+      }
+    },
+    {
+      "conversation_id": "s08_e18_c04_u001",
+      "actual_partner": "Person B",
+      "gold_response": {
+        "P_rachel": 0.25265670475163143,
+        "speaker_top1": "Rachel",
+        "P_true_pair": 0.07050155152506642,
+        "pair_top1": "Chandler-Monica"
+      },
+      "generated_response": {
+        "P_rachel": 0.07388503536309873,
+        "speaker_top1": "Chandler",
+        "P_true_pair": 0.0756080370119563,
+        "pair_top1": "Chandler-Monica"
+      }
+    },
+    {
+      "conversation_id": "s03_e12_c15_u001",
+      "actual_partner": "Person B",
+      "gold_response": {
+        "P_rachel": 0.06884431511804014,
+        "speaker_top1": "Joey",
+        "P_true_pair": 0.061049841194487794,
+        "pair_top1": "Chandler-Ross"
+      },
+      "generated_response": {
+        "P_rachel": 0.18921819999693304,
+        "speaker_top1": "Ross",
+        "P_true_pair": 0.06599704675844274,
+        "pair_top1": "Phoebe-Ross"
+      }
+    },
+    {
+      "conversation_id": "s04_e24_c19_u001",
+      "actual_partner": "Person C",
+      "gold_response": {
+        "P_rachel": 0.3972464605514437,
+        "speaker_top1": "Rachel",
+        "P_true_pair": 0.17755504322443424,
+        "pair_top1": "Monica-Rachel"
+      },
+      "generated_response": {
+        "P_rachel": 0.32217695496134685,
+        "speaker_top1": "Rachel",
+        "P_true_pair": 0.22728472876748582,
+        "pair_top1": "Monica-Rachel"
+      }
+    },
+    {
+      "conversation_id": "s09_e21_c02_u000",
+      "actual_partner": "Person C",
+      "gold_response": {
+        "P_rachel": 0.12633873233107343,
+        "speaker_top1": "Phoebe",
+        "P_true_pair": 0.05616243395515583,
+        "pair_top1": "Chandler-Phoebe"
+      },
+      "generated_response": {
+        "P_rachel": 0.1253581493342099,
+        "speaker_top1": "Chandler",
+        "P_true_pair": 0.044325245609827015,
+        "pair_top1": "Chandler-Joey"
+      }
+    },
+    {
+      "conversation_id": "s05_e22_c04_u001",
+      "actual_partner": "Person C",
+      "gold_response": {
+        "P_rachel": 0.13688333230883107,
+        "speaker_top1": "Joey",
+        "P_true_pair": 0.07232808869816022,
+        "pair_top1": "Monica-Phoebe"
+      },
+      "generated_response": {
+        "P_rachel": 0.154201175791948,
+        "speaker_top1": "Phoebe",
+        "P_true_pair": 0.0799783982317162,
+        "pair_top1": "Monica-Phoebe"
+      }
+    },
+    {
+      "conversation_id": "s10_e15_c01_u000",
+      "actual_partner": "Person B",
+      "gold_response": {
+        "P_rachel": 0.2527427967139101,
+        "speaker_top1": "Rachel",
+        "P_true_pair": 0.11879139768105851,
+        "pair_top1": "Rachel-Ross"
+      },
+      "generated_response": {
+        "P_rachel": 0.11725982339844505,
+        "speaker_top1": "Phoebe",
+        "P_true_pair": 0.060968832659891226,
+        "pair_top1": "Chandler-Monica"
+      }
+    },
+    {
+      "conversation_id": "s09_e07_c13_u000",
+      "actual_partner": "Person B",
+      "gold_response": {
+        "P_rachel": 0.2205593968229127,
+        "speaker_top1": "Rachel",
+        "P_true_pair": 0.041173424386724874,
+        "pair_top1": "Chandler-Ross"
+      },
+      "generated_response": {
+        "P_rachel": 0.14637942947077404,
+        "speaker_top1": "Monica",
+        "P_true_pair": 0.04464365472169081,
+        "pair_top1": "Chandler-Ross"
+      }
+    },
+    {
+      "conversation_id": "s10_e04_c02_u000",
+      "actual_partner": "Person B",
+      "gold_response": {
+        "P_rachel": 0.13632331492284405,
+        "speaker_top1": "Phoebe",
+        "P_true_pair": 0.05177245654746275,
+        "pair_top1": "Monica-Ross"
+      },
+      "generated_response": {
+        "P_rachel": 0.06632139265097213,
+        "speaker_top1": "Monica",
+        "P_true_pair": 0.04277399091920533,
+        "pair_top1": "Monica-Ross"
+      }
+    },
+    {
+      "conversation_id": "s04_e04_c01_u001",
+      "actual_partner": "Person C",
+      "gold_response": {
+        "P_rachel": 0.1272508781549771,
+        "speaker_top1": "Chandler",
+        "P_true_pair": 0.06326286424076018,
+        "pair_top1": "Monica-Phoebe"
+      },
+      "generated_response": {
+        "P_rachel": 0.15149695550388104,
+        "speaker_top1": "Monica",
+        "P_true_pair": 0.08997359245298887,
+        "pair_top1": "Monica-Phoebe"
+      }
+    },
+    {
+      "conversation_id": "s10_e15_c12_u000",
+      "actual_partner": "Person B",
+      "gold_response": {
+        "P_rachel": 0.1857784610958697,
+        "speaker_top1": "Joey",
+        "P_true_pair": 0.0728558292485311,
+        "pair_top1": "Joey-Ross"
+      },
+      "generated_response": {
+        "P_rachel": 0.08306996447303108,
+        "speaker_top1": "Joey",
+        "P_true_pair": 0.08622122124239719,
+        "pair_top1": "Joey-Ross"
+      }
+    },
+    {
+      "conversation_id": "s05_e05_c06_u001",
+      "actual_partner": "Person B",
+      "gold_response": {
+        "P_rachel": 0.20501963145495114,
+        "speaker_top1": "Ross",
+        "P_true_pair": 0.13278026454064498,
+        "pair_top1": "Rachel-Ross"
+      },
+      "generated_response": {
+        "P_rachel": 0.08977175243370217,
+        "speaker_top1": "Chandler",
+        "P_true_pair": 0.12658508940309063,
+        "pair_top1": "Rachel-Ross"
+      }
+    },
+    {
+      "conversation_id": "s01_e01_c01_u001",
+      "actual_partner": "Person C",
+      "gold_response": {
+        "P_rachel": 0.21193992440758413,
+        "speaker_top1": "Phoebe",
+        "P_true_pair": 0.04933169029359164,
+        "pair_top1": "Phoebe-Rachel"
+      },
+      "generated_response": {
+        "P_rachel": 0.09872142857201295,
+        "speaker_top1": "Phoebe",
+        "P_true_pair": 0.0587870966336422,
+        "pair_top1": "Chandler-Joey"
+      }
+    },
+    {
+      "conversation_id": "s02_e01_c07_u001",
+      "actual_partner": "Person B",
+      "gold_response": {
+        "P_rachel": 0.10087877213082919,
+        "speaker_top1": "Chandler",
+        "P_true_pair": 0.061477352141577894,
+        "pair_top1": "Chandler-Ross"
+      },
+      "generated_response": {
+        "P_rachel": 0.14511073542276753,
+        "speaker_top1": "Monica",
+        "P_true_pair": 0.04920264916701818,
+        "pair_top1": "Chandler-Ross"
+      }
+    },
+    {
+      "conversation_id": "s01_e21_c02_u001",
+      "actual_partner": "Person C",
+      "gold_response": {
+        "P_rachel": 0.20365829780634795,
+        "speaker_top1": "Joey",
+        "P_true_pair": 0.10870394619791118,
+        "pair_top1": "Monica-Rachel"
+      },
+      "generated_response": {
+        "P_rachel": 0.16264508294824076,
+        "speaker_top1": "Phoebe",
+        "P_true_pair": 0.1337055802053877,
+        "pair_top1": "Monica-Rachel"
+      }
+    },
+    {
+      "conversation_id": "s02_e08_c05_u001",
+      "actual_partner": "Person C",
+      "gold_response": {
+        "P_rachel": 0.08452623912063205,
+        "speaker_top1": "Ross",
+        "P_true_pair": 0.044433438598280785,
+        "pair_top1": "Monica-Ross"
+      },
+      "generated_response": {
+        "P_rachel": 0.07870557699353577,
+        "speaker_top1": "Joey",
+        "P_true_pair": 0.018152855340701657,
+        "pair_top1": "Chandler-Joey"
+      }
+    }
+  ]
+}

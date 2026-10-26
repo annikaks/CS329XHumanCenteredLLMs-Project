@@ -1,0 +1,11 @@
+scikit-learn>=1.3
+numpy
+matplotlib
+joblib
+spacy>=3.7
+# python -m spacy download en_core_web_sm
+convokit  # optional: only for --source convokit
+# transformer fine-tuning (Colab GPU)
+torch
+transformers>=4.40
+accelerate

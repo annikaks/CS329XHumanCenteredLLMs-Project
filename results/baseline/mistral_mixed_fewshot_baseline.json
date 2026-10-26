@@ -1,0 +1,950 @@
+[
+  {
+    "conversation_id": "s03_e05_c14_u001",
+    "actual_partner": "Person B",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\nPerson A: Oh-oh, you lie.\n[Other Person]: What you don't think I'd go up to her?\nPerson A: [Other Person], it took you ten years to finally admit you liked me.\n[Other Person]: Yeah, well missy, you better be glad that list is laminated.\nPerson A: You know what honey, you go ahead, we'll call her an alternate.\n[Other Person]: Okay, hold my crawler.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person A",
+        "text": "Oh-oh, you lie."
+      },
+      {
+        "speaker": "Person B",
+        "text": "What you don't think I'd go up to her?"
+      },
+      {
+        "speaker": "Person A",
+        "text": "Person B, it took you ten years to finally admit you liked me."
+      },
+      {
+        "speaker": "Person B",
+        "text": "Yeah, well missy, you better be glad that list is laminated."
+      },
+      {
+        "speaker": "Person A",
+        "text": "You know what honey, you go ahead, we'll call her an alternate."
+      },
+      {
+        "speaker": "Person B",
+        "text": "Okay, hold my crawler."
+      }
+    ],
+    "gold_response": "Okay.",
+    "generated_response": "[Other Person], let's not forget who's been playing the long game here."
+  },
+  {
+    "conversation_id": "s02_e07_c11_u001",
+    "actual_partner": "Person B",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\nPerson A: Hi.\n[Other Person]: I didn't get a cat.\nPerson A: Oh, that's um, interesting.\n[Other Person]: No, no it's not interesting. OK, it's very, very not interesting. In fact it's actually 100 percent completely opposite of interesting.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person A",
+        "text": "Hi."
+      },
+      {
+        "speaker": "Person B",
+        "text": "I didn't get a cat."
+      },
+      {
+        "speaker": "Person A",
+        "text": "Oh, that's um, interesting."
+      },
+      {
+        "speaker": "Person B",
+        "text": "No, no it's not interesting. OK, it's very, very not interesting. In fact it's actually 100 percent completely opposite of interesting."
+      }
+    ],
+    "gold_response": "Alright, I got it Person B.",
+    "generated_response": "Well, everyone has their own preferences. If it's not something that sparks your interest, that's perfectly fine. But if you ever change your mind, I know a great place for cats."
+  },
+  {
+    "conversation_id": "s01_e05_c12_u001",
+    "actual_partner": "Person B",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\nPerson A: What uh-oh?\n[Other Person]: Uh-oh, uh-oh, the laundry's done. It's, uh, it's a song. The laundry song that we sing. Uh-oh the laundry's done, uh-oh, uh-oh.\nPerson A: [Other Person], what's the matter?\n[Other Person]: Nothing, nothing. Person E, the laundry's done.\nPerson A: Come on, show me.\n[Other Person]: All right, all right, it's just that you left a red sock in with all your whites, and now, everything's kinda pink.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person A",
+        "text": "What uh-oh?"
+      },
+      {
+        "speaker": "Person B",
+        "text": "Uh-oh, uh-oh, the laundry's done. It's, uh, it's a song. The laundry song that we sing. Uh-oh the laundry's done, uh-oh, uh-oh."
+      },
+      {
+        "speaker": "Person A",
+        "text": "Person B, what's the matter?"
+      },
+      {
+        "speaker": "Person B",
+        "text": "Nothing, nothing. Person E, the laundry's done."
+      },
+      {
+        "speaker": "Person A",
+        "text": "Come on, show me."
+      },
+      {
+        "speaker": "Person B",
+        "text": "All right, all right, it's just that you left a red sock in with all your whites, and now, everything's kinda pink."
+      }
+    ],
+    "gold_response": "Oh, everything's pink.",
+    "generated_response": "Oh no, not the pink laundry again! Let me see. (laughs) Person E, you know I can't help it, I always forget about the red socks. But don't worry, we'll figure it out. Maybe we can make it a fashion statement? (smiling)"
+  },
+  {
+    "conversation_id": "s01_e09_c10_u001",
+    "actual_partner": "Person C",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\n[Other Person]: Ok, right about now the turkey should be crispy on the outside, juicy on the inside. Why are we standing here?\nPerson A: We're waiting for you to open the door. You got the keys.\n[Other Person]: No I don't.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person C",
+        "text": "Ok, right about now the turkey should be crispy on the outside, juicy on the inside. Why are we standing here?"
+      },
+      {
+        "speaker": "Person A",
+        "text": "We're waiting for you to open the door. You got the keys."
+      },
+      {
+        "speaker": "Person C",
+        "text": "No I don't."
+      }
+    ],
+    "gold_response": "Yes, you do. When we left, you said, \"got the keys.\"",
+    "generated_response": "Are you sure? I remember you saying you had them earlier. We can't cook the turkey if we can't get into the oven."
+  },
+  {
+    "conversation_id": "s03_e25_c05_u001",
+    "actual_partner": "Person C",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\n[Other Person]: I think I'll help her out. What is going on here?\nPerson A: What?!\n[Other Person]: You painting his toenails?\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person C",
+        "text": "I think I'll help her out. What is going on here?"
+      },
+      {
+        "speaker": "Person A",
+        "text": "What?!"
+      },
+      {
+        "speaker": "Person C",
+        "text": "You painting his toenails?"
+      }
+    ],
+    "gold_response": "Oh, come on!",
+    "generated_response": "[Laughs] No, not at all. We're just discussing some design ideas for her new shoes."
+  },
+  {
+    "conversation_id": "s04_e24_c19_u001",
+    "actual_partner": "Person C",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\nPerson A: Mon, honey, I gotta ask you something.\n[Other Person]: Now?\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person A",
+        "text": "Mon, honey, I gotta ask you something."
+      },
+      {
+        "speaker": "Person C",
+        "text": "Now?"
+      }
+    ],
+    "gold_response": "Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?",
+    "generated_response": "Yes, now is good. I was just wondering, do you think you could help me out with something later tonight?\n[Other Person]: Sure, what do you need?\nPerson A: I need to go pick up some things from the store and I was wondering if you could come with me.\n[Other Person]: Why do you need me to come?\nPerson A: Well, I have a lot of things to buy and I think it would be easier if"
+  },
+  {
+    "conversation_id": "s05_e20_c08_u001",
+    "actual_partner": "Person C",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\n[Other Person]: All right, I guess we should go.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person C",
+        "text": "All right, I guess we should go."
+      }
+    ],
+    "gold_response": "No, wait. Wait.",
+    "generated_response": "Person C: Where to, though? I'd like to grab a coffee first if that's okay with you."
+  },
+  {
+    "conversation_id": "s05_e07_c09_u001",
+    "actual_partner": "Person C",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\n[Other Person]: It's Person D.\nPerson A: Don't let him in! I'm supposed to be at a regatta gala.\n[Other Person]: We'll be right there! Can't you just say it starts later?\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person C",
+        "text": "It's Person D."
+      },
+      {
+        "speaker": "Person A",
+        "text": "Don't let him in! I'm supposed to be at a regatta gala."
+      },
+      {
+        "speaker": "Person C",
+        "text": "We'll be right there! Can't you just say it starts later?"
+      }
+    ],
+    "gold_response": "What? What kind of a regatta gala starts at night?!",
+    "generated_response": "I'm sorry, but I can't do that. The gala starts at 6:30 sharp, and I have important obligations to attend to. You should let Person D know that I'll be there soon."
+  },
+  {
+    "conversation_id": "s02_e02_c08_u001",
+    "actual_partner": "Person C",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\nPerson A: You were with Person G?\n[Other Person]: Look, when it started I was just trying to be nice to her because she was my brother's girlfriend. And then, one thing led to another and, before I knew it, we were...shopping.\nPerson A: Oh. Oh my God.\n[Other Person]: Honey, wait. We only did it once. It didn't mean anything to me.\nPerson A: Yeah, right. Sure!\n[Other Person]: Really, Person A, I was thinking of you the whole time. Look, I'm sorry, all right. I never meant for you to find out!\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person A",
+        "text": "You were with Person G?"
+      },
+      {
+        "speaker": "Person C",
+        "text": "Look, when it started I was just trying to be nice to her because she was my brother's girlfriend. And then, one thing led to another and, before I knew it, we were...shopping."
+      },
+      {
+        "speaker": "Person A",
+        "text": "Oh. Oh my God."
+      },
+      {
+        "speaker": "Person C",
+        "text": "Honey, wait. We only did it once. It didn't mean anything to me."
+      },
+      {
+        "speaker": "Person A",
+        "text": "Yeah, right. Sure!"
+      },
+      {
+        "speaker": "Person C",
+        "text": "Really, Person A, I was thinking of you the whole time. Look, I'm sorry, all right. I never meant for you to find out!"
+      }
+    ],
+    "gold_response": "Oh, please, you wanted to get caught.",
+    "generated_response": "I need some time to process this. Let's talk about it later when I can think more clearly."
+  },
+  {
+    "conversation_id": "s04_e21_c28_u001",
+    "actual_partner": "Person C",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\n[Other Person]: Person D. You're really not going?\nPerson A: Yeah. It's just gonna be too hard. Y'know? I mean, it's [Other Person]. How can I watch him get married? Y'know it's just, it's for the best, y'know it is, it's... Y'know, plus, somebody's got to stay here with Phoebe! Y'know she's gonna be pretty big by then, and she needs someone to help her tie her shoes; drive her to the hospital in case she goes into labour.\n[Other Person]: You don't have a car. And your license expired.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person C",
+        "text": "Person D. You're really not going?"
+      },
+      {
+        "speaker": "Person A",
+        "text": "Yeah. It's just gonna be too hard. Y'know? I mean, it's Person B. How can I watch him get married? Y'know it's just, it's for the best, y'know it is, it's... Y'know, plus, somebody's got to stay here with Phoebe! Y'know she's gonna be pretty big by then, and she needs someone to help her tie her shoes; drive her to the hospital in case she goes into labour."
+      },
+      {
+        "speaker": "Person C",
+        "text": "You don't have a car. And your license expired."
+      }
+    ],
+    "gold_response": "I know. Yeah, see, there's so much to do and I have so little time to do it in.",
+    "generated_response": "Well, then I'll need to find a way to get there. I can't let Phoebe down. She's counting on me."
+  },
+  {
+    "conversation_id": "s09_e20_c01_u000",
+    "actual_partner": "Person C",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\nPerson A: Ooh... oooh... oh, ah... Can I ask you a question?\n[Other Person]: Yeah.\nPerson A: Do you think it's possible for two friends to fool around and... and not have it be a big deal?\n[Other Person]: No, I don't think it ever works. Why?\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person A",
+        "text": "Ooh... oooh... oh, ah... Can I ask you a question?"
+      },
+      {
+        "speaker": "Person C",
+        "text": "Yeah."
+      },
+      {
+        "speaker": "Person A",
+        "text": "Do you think it's possible for two friends to fool around and... and not have it be a big deal?"
+      },
+      {
+        "speaker": "Person C",
+        "text": "No, I don't think it ever works. Why?"
+      }
+    ],
+    "gold_response": "No reason.",
+    "generated_response": "Well, I mean, it really depends on the individuals involved and their dynamic, doesn't it? But generally speaking, I think emotions can get complicated and it's hard to keep things casual once physical intimacy is involved. But again, every situation is unique."
+  },
+  {
+    "conversation_id": "s02_e08_c05_u001",
+    "actual_partner": "Person C",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\n[Other Person]: Hey.\nPerson A: Did uh, [Other Person] call?\n[Other Person]: No, I'm sorry.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person C",
+        "text": "Hey."
+      },
+      {
+        "speaker": "Person A",
+        "text": "Did uh, Person B call?"
+      },
+      {
+        "speaker": "Person C",
+        "text": "No, I'm sorry."
+      }
+    ],
+    "gold_response": "Why didn't he call? He's gonna stay with Person D, isn't he? He's gonna stay with her and she's going to be all, \"Hi, I'm Person D, Person B picked me, and we're gonna to get married, have a lot of kids and dig up stuff together.\"",
+    "generated_response": "Well, then, what do you want?"
+  },
+  {
+    "conversation_id": "s10_e17_c02_u000",
+    "actual_partner": "Person B",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\n[Other Person]: Hey.\nPerson A: Shh.. Go back to sleep. I have to go home.\n[Other Person]: Oh. This was amazing.\nPerson A: It really was. You've learned some new moves!\n[Other Person]: Yeah, well, this guy at work gave me \"Sex for Dummies\" as a joke.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person B",
+        "text": "Hey."
+      },
+      {
+        "speaker": "Person A",
+        "text": "Shh.. Go back to sleep. I have to go home."
+      },
+      {
+        "speaker": "Person B",
+        "text": "Oh. This was amazing."
+      },
+      {
+        "speaker": "Person A",
+        "text": "It really was. You've learned some new moves!"
+      },
+      {
+        "speaker": "Person B",
+        "text": "Yeah, well, this guy at work gave me \"Sex for Dummies\" as a joke."
+      }
+    ],
+    "gold_response": "Ah.",
+    "generated_response": "That's interesting. Maybe you should put those new moves to good use. Good luck at work!"
+  },
+  {
+    "conversation_id": "s01_e24_c08_u001",
+    "actual_partner": "Person C",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\n[Other Person]: Hey, great skirt! Birthday present?\nPerson A: Yeah.\n[Other Person]: Oh, from who?\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person C",
+        "text": "Hey, great skirt! Birthday present?"
+      },
+      {
+        "speaker": "Person A",
+        "text": "Yeah."
+      },
+      {
+        "speaker": "Person C",
+        "text": "Oh, from who?"
+      }
+    ],
+    "gold_response": "From you. I exchanged the blouse you got me.",
+    "generated_response": "Person C gave me a beautiful skirt for my birthday."
+  },
+  {
+    "conversation_id": "s03_e15_c04_u001",
+    "actual_partner": "Person B",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\nPerson A: Hello.\n[Other Person]: Hey, honey.\nPerson A: Oh, hi.\n[Other Person]: Hey, what's going on?\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person A",
+        "text": "Hello."
+      },
+      {
+        "speaker": "Person B",
+        "text": "Hey, honey."
+      },
+      {
+        "speaker": "Person A",
+        "text": "Oh, hi."
+      },
+      {
+        "speaker": "Person B",
+        "text": "Hey, what's going on?"
+      }
+    ],
+    "gold_response": "Well, there was a disaster in shipping and I've got to get this order in. Honey, I'm so sorry, but it looks like I'm gonna be here all night.",
+    "generated_response": "Not much, just had a long day at work. How about you?\n[Other Person]: Same here. I've been dealing with some difficult clients all day.\nPerson A: I can imagine. I'll be glad to get home and relax.\n[Other Person]: Me too. Let's make dinner together tonight, okay?\nPerson A: That sounds great. I'll pick up some ingredients on the way home.\n[Other Person]:"
+  },
+  {
+    "conversation_id": "s02_e01_c07_u001",
+    "actual_partner": "Person B",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\n[Other Person]: So, uh, he's back.\nPerson A: Yeah, he's back. Is that a problem?\n[Other Person]: No, not a problem.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person B",
+        "text": "So, uh, he's back."
+      },
+      {
+        "speaker": "Person A",
+        "text": "Yeah, he's back. Is that a problem?"
+      },
+      {
+        "speaker": "Person B",
+        "text": "No, not a problem."
+      }
+    ],
+    "gold_response": "Good! I'm glad it's not a problem.",
+    "generated_response": "Well then, I'll just go handle the situation. Thanks for letting me know."
+  },
+  {
+    "conversation_id": "s10_e09_c05_u000",
+    "actual_partner": "Person B",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\n[Other Person]: All right, that's it, I'm getting out of here.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person B",
+        "text": "All right, that's it, I'm getting out of here."
+      }
+    ],
+    "gold_response": "No, no, no, no! Person B, wait! Come on! You know, there's other stuff. Here's a nice shirt, look at these nice pants...",
+    "generated_response": "Person C: Wait, where are you going?\nPerson A: Why don't you tell me, Person C? What's going on?\nPerson C: I just can't take this anymore.\nPerson A: Take what, exactly?\nPerson C: This conversation. This situation.\nPerson A: Person C, I understand that you're frustrated, but let's try to work through this together.\nPerson C: No, I've had enough"
+  },
+  {
+    "conversation_id": "s05_e01_c08_u001",
+    "actual_partner": "Person B",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\nPerson A: Okay!\n[Other Person]: Cool!\nPerson A: All right!\n[Other Person]: Come on! Here.\nPerson A: Oh, okay, we're going. Yeah.\n[Other Person]: Ah! Ah! I forgot my jacket!\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person A",
+        "text": "Okay!"
+      },
+      {
+        "speaker": "Person B",
+        "text": "Cool!"
+      },
+      {
+        "speaker": "Person A",
+        "text": "All right!"
+      },
+      {
+        "speaker": "Person B",
+        "text": "Come on! Here."
+      },
+      {
+        "speaker": "Person A",
+        "text": "Oh, okay, we're going. Yeah."
+      },
+      {
+        "speaker": "Person B",
+        "text": "Ah! Ah! I forgot my jacket!"
+      }
+    ],
+    "gold_response": "Oh, wait-wait-wait...",
+    "generated_response": "No problem, I'll go back and get it for you."
+  },
+  {
+    "conversation_id": "s04_e24_c19_u001",
+    "actual_partner": "Person C",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\nPerson A: [Other Person], what should I do?\n[Other Person]: Just uh, do the right thing.\nPerson A: What?\n[Other Person]: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to [Other Person] about what he think it meant.\n[Other Person]: Wait. Person A, no, he's married. Married! If you don't realise that, I can't help you.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person A",
+        "text": "Person C, what should I do?"
+      },
+      {
+        "speaker": "Person C",
+        "text": "Just uh, do the right thing."
+      },
+      {
+        "speaker": "Person A",
+        "text": "What?"
+      },
+      {
+        "speaker": "Person C",
+        "text": "Toe the line. Thread the needle. Think outside the box!"
+      },
+      {
+        "speaker": "Person A",
+        "text": "Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant."
+      },
+      {
+        "speaker": "Person C",
+        "text": "Wait. Person A, no, he's married. Married! If you don't realise that, I can't help you."
+      }
+    ],
+    "gold_response": "Okay, you're right. You're right. You can't help me.",
+    "generated_response": "I see. Well, I'll make sure to be more careful with my actions moving forward. Thank you for the advice."
+  },
+  {
+    "conversation_id": "s07_e16_c12_u001",
+    "actual_partner": "Person B",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\n[Other Person]: Wait! No! Person D, come here! I am not kidding!\nPerson A: No you guys...\n[Other Person]: I-I-am-\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person B",
+        "text": "Wait! No! Person D, come here! I am not kidding!"
+      },
+      {
+        "speaker": "Person A",
+        "text": "No you guys..."
+      },
+      {
+        "speaker": "Person B",
+        "text": "I-I-am-"
+      }
+    ],
+    "gold_response": "EHHHHHHHHHHH!!!!!!! My God!!!!!!!!!!! Oh my God!!!!!!!",
+    "generated_response": "Person B, let's give them some space for now. We can talk about it later."
+  },
+  {
+    "conversation_id": "s09_e05_c12_u000",
+    "actual_partner": "Person B",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\nPerson A: Oh honey, this is for the best, thus I'm not distracted, worrying about Person D, how she's doing at home and I'm being completely here with you and, oh, she spit up!\n[Other Person]: What?\nPerson A: She spit up. Person E! She spi...Person E! Look alive, Person E! Thank you.\n[Other Person]: Thanks. Oh.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person A",
+        "text": "Oh honey, this is for the best, thus I'm not distracted, worrying about Person D, how she's doing at home and I'm being completely here with you and, oh, she spit up!"
+      },
+      {
+        "speaker": "Person B",
+        "text": "What?"
+      },
+      {
+        "speaker": "Person A",
+        "text": "She spit up. Person E! She spi...Person E! Look alive, Person E! Thank you."
+      },
+      {
+        "speaker": "Person B",
+        "text": "Thanks. Oh."
+      }
+    ],
+    "gold_response": "Oh, ooh, everything looks delicious. What should I ha-ave? What should I have?",
+    "generated_response": "Person E seems to be in need of attention. I'll be right here with you. Don't worry about a thing."
+  },
+  {
+    "conversation_id": "s02_e05_c07_u001",
+    "actual_partner": "Person B",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\n[Other Person]: Hey, you guys.\nPerson A: Happy birthday.\n[Other Person]: Oh, thank you, thanks. So uh, how was your night last night?\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person B",
+        "text": "Hey, you guys."
+      },
+      {
+        "speaker": "Person A",
+        "text": "Happy birthday."
+      },
+      {
+        "speaker": "Person B",
+        "text": "Oh, thank you, thanks. So uh, how was your night last night?"
+      }
+    ],
+    "gold_response": "Oh, well, it pretty much sucked. How was yours?",
+    "generated_response": "It was good, thanks for asking. I had a great time at the party. How about yours?"
+  },
+  {
+    "conversation_id": "s01_e21_c02_u001",
+    "actual_partner": "Person C",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\nPerson A: What?\n[Other Person]: She's living my life, and she's doing it better than me! Look at this, look. She buys tickets for plays that I wanna see. She, she buys clothes from stores that I'm intimidated by the sales people. She spent three hundred dollars on art supplies.\nPerson A: You're not an artist.\n[Other Person]: Yeah, well I might be if I had the supplies! I mean, I could do all this stuff. Only I don't.\nPerson A: Oh, [Other Person], c'mon, you do cool things.\n[Other Person]: Oh really? Okay, let's compare, shall we.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person A",
+        "text": "What?"
+      },
+      {
+        "speaker": "Person C",
+        "text": "She's living my life, and she's doing it better than me! Look at this, look. She buys tickets for plays that I wanna see. She, she buys clothes from stores that I'm intimidated by the sales people. She spent three hundred dollars on art supplies."
+      },
+      {
+        "speaker": "Person A",
+        "text": "You're not an artist."
+      },
+      {
+        "speaker": "Person C",
+        "text": "Yeah, well I might be if I had the supplies! I mean, I could do all this stuff. Only I don't."
+      },
+      {
+        "speaker": "Person A",
+        "text": "Oh, Person C, c'mon, you do cool things."
+      },
+      {
+        "speaker": "Person C",
+        "text": "Oh really? Okay, let's compare, shall we."
+      }
+    ],
+    "gold_response": "Oh, it's so late for 'Shall we'...",
+    "generated_response": "You know what? Let's try this instead. Why don't we go out and buy those art supplies together? We can explore our creative sides and see where it takes us."
+  },
+  {
+    "conversation_id": "s02_e04_c11_u001",
+    "actual_partner": "Person B",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\nPerson A: I know, yeah, sorry.\n[Other Person]: What, it's not your fault.\nPerson A: Maybe it, maybe it doesn't have to be this tough. I mean, maybe you were on the right track with this whole, you know, spontaneous thing. I mean, women really like that.\n[Other Person]: Really?\nPerson A: Yeah, I mean, you know it, I mean, if it were me I, I, you know, I'd want you to, I don't know, like catch me off guard, you know, with like a really good kiss, you know really, sort of um, soft at first, then maybe um brush the hair away from my face, and look far into my eyes in a way that let's me know that something amazing is about to happen.\n[Other Person]: Uh-huh.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person A",
+        "text": "I know, yeah, sorry."
+      },
+      {
+        "speaker": "Person B",
+        "text": "What, it's not your fault."
+      },
+      {
+        "speaker": "Person A",
+        "text": "Maybe it, maybe it doesn't have to be this tough. I mean, maybe you were on the right track with this whole, you know, spontaneous thing. I mean, women really like that."
+      },
+      {
+        "speaker": "Person B",
+        "text": "Really?"
+      },
+      {
+        "speaker": "Person A",
+        "text": "Yeah, I mean, you know it, I mean, if it were me I, I, you know, I'd want you to, I don't know, like catch me off guard, you know, with like a really good kiss, you know really, sort of um, soft at first, then maybe um brush the hair away from my face, and look far into my eyes in a way that let's me know that something amazing is about to happen."
+      },
+      {
+        "speaker": "Person B",
+        "text": "Uh-huh."
+      }
+    ],
+    "gold_response": "And then, I don't know, I mean you'd pull me really close to you so that, so that I'd be pressed up, you know, right against you. And, um, it would get kind of sweaty and uh, and blurry, and then it's just happening.",
+    "generated_response": "I think I've got it now. Let's try something new. How about we surprise each other with small gestures of affection, like leaving a love note in unexpected places or planning a surprise date? It's important to keep the spark alive, don't you think?"
+  },
+  {
+    "conversation_id": "s02_e02_c08_u001",
+    "actual_partner": "Person C",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\nPerson A: What?!\n[Other Person]: Person F!\nPerson A: You were with Person G?\n[Other Person]: Look, when it started I was just trying to be nice to her because she was my brother's girlfriend. And then, one thing led to another and, before I knew it, we were...shopping.\nPerson A: Oh. Oh my God.\n[Other Person]: Honey, wait. We only did it once. It didn't mean anything to me.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person A",
+        "text": "What?!"
+      },
+      {
+        "speaker": "Person C",
+        "text": "Person F!"
+      },
+      {
+        "speaker": "Person A",
+        "text": "You were with Person G?"
+      },
+      {
+        "speaker": "Person C",
+        "text": "Look, when it started I was just trying to be nice to her because she was my brother's girlfriend. And then, one thing led to another and, before I knew it, we were...shopping."
+      },
+      {
+        "speaker": "Person A",
+        "text": "Oh. Oh my God."
+      },
+      {
+        "speaker": "Person C",
+        "text": "Honey, wait. We only did it once. It didn't mean anything to me."
+      }
+    ],
+    "gold_response": "Yeah, right. Sure!",
+    "generated_response": "I need some time to process this. Can we talk about it later?"
+  },
+  {
+    "conversation_id": "s08_e18_c04_u001",
+    "actual_partner": "Person B",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\nPerson A: So would Person D wouldn't think that Person E would forget to put film in the camera.\n[Other Person]: Would you excuse us for a second? Umm.... what are you doing?\nPerson A: What? I'm not you. This may be the only wedding I ever have. I want it to be amazing.\n[Other Person]: Okay, okay. Ooooh, ooh maybe I rode in on a Harley.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person A",
+        "text": "So would Person D wouldn't think that Person E would forget to put film in the camera."
+      },
+      {
+        "speaker": "Person B",
+        "text": "Would you excuse us for a second? Umm.... what are you doing?"
+      },
+      {
+        "speaker": "Person A",
+        "text": "What? I'm not you. This may be the only wedding I ever have. I want it to be amazing."
+      },
+      {
+        "speaker": "Person B",
+        "text": "Okay, okay. Ooooh, ooh maybe I rode in on a Harley."
+      }
+    ],
+    "gold_response": "Okay, Person B, it has to be realistic.",
+    "generated_response": "That's a great idea! Let's make sure everything is perfect for Person D's wedding. I'll double-check all the details."
+  },
+  {
+    "conversation_id": "s03_e12_c15_u001",
+    "actual_partner": "Person B",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\nPerson A: Where ya going?\n[Other Person]: Oh, I've got to go pick up Person D, we've got a play date this afternoon.\nPerson A: Ohh, with who?\n[Other Person]: Oh, just this woman that I met last night at the party.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person A",
+        "text": "Where ya going?"
+      },
+      {
+        "speaker": "Person B",
+        "text": "Oh, I've got to go pick up Person D, we've got a play date this afternoon."
+      },
+      {
+        "speaker": "Person A",
+        "text": "Ohh, with who?"
+      },
+      {
+        "speaker": "Person B",
+        "text": "Oh, just this woman that I met last night at the party."
+      }
+    ],
+    "gold_response": "There was a woman at the... The stripper?!",
+    "generated_response": "Really? And you're taking Person D with you?\n[Other Person]: Yeah, she seems nice.\nPerson A: Hmm, alright. Just be careful, okay?\n[Other Person]: I will, don't worry.\nPerson A: Alright, have a good time.\n[Other Person]: Thanks, I will. Bye!\nPerson A: Bye."
+  },
+  {
+    "conversation_id": "s04_e24_c19_u001",
+    "actual_partner": "Person C",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\nPerson A: Mon, honey, I gotta ask you something.\n[Other Person]: Now?\nPerson A: [Other Person] said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\n[Other Person]: Oh, I-I don't know.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person A",
+        "text": "Mon, honey, I gotta ask you something."
+      },
+      {
+        "speaker": "Person C",
+        "text": "Now?"
+      },
+      {
+        "speaker": "Person A",
+        "text": "Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?"
+      },
+      {
+        "speaker": "Person C",
+        "text": "Oh, I-I don't know."
+      }
+    ],
+    "gold_response": "Person C, what should I do?",
+    "generated_response": "[Other Person], what should I do?\n[Other Person]: Just uh, do the right thing.\nPerson A: What?\n[Other Person]: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to [Other Person] about what he meant."
+  },
+  {
+    "conversation_id": "s09_e21_c02_u000",
+    "actual_partner": "Person C",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\n[Other Person]: Hey, what's this?\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person C",
+        "text": "Hey, what's this?"
+      }
+    ],
+    "gold_response": "Oh, it's a gift certificate to this new SPA in SOHO.",
+    "generated_response": "(looking at the object) I'm not sure. Can you tell me more about it?"
+  },
+  {
+    "conversation_id": "s05_e22_c04_u001",
+    "actual_partner": "Person C",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\nPerson A: Oh my God! What does that thing do?\n[Other Person]: Oh that's an eye removal machine.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person A",
+        "text": "Oh my God! What does that thing do?"
+      },
+      {
+        "speaker": "Person C",
+        "text": "Oh that's an eye removal machine."
+      }
+    ],
+    "gold_response": "All right, I'm outta here!",
+    "generated_response": "Really? Can I see it up close?\n[Other Person]: I'm not sure that's a good idea.\nPerson A: Why not? I'm a doctor, I can handle it.\n[Other Person]: It's not that simple. It's a delicate procedure and requires a great deal of precision.\nPerson A: I understand, but I'm still curious. Can I at least observe it in action?\n[Other Person"
+  },
+  {
+    "conversation_id": "s10_e15_c01_u000",
+    "actual_partner": "Person B",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\nPerson A: He offered me one.\n[Other Person]: You know what? This calls for a bottle of Israels finest.\nPerson A: The job is in Paris. FADE OUT.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person A",
+        "text": "He offered me one."
+      },
+      {
+        "speaker": "Person B",
+        "text": "You know what? This calls for a bottle of Israels finest."
+      },
+      {
+        "speaker": "Person A",
+        "text": "The job is in Paris. FADE OUT."
+      }
+    ],
+    "gold_response": "Oh, God! Please, somebody say something.",
+    "generated_response": "That sounds exciting! Shall we celebrate with a glass of champagne instead? I've heard the French bubbly is quite good."
+  },
+  {
+    "conversation_id": "s09_e07_c13_u000",
+    "actual_partner": "Person B",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\nPerson A: So shake it!\n[Other Person]: Shake it!\nPerson A: Shake it!\n[Other Person]: Shake it!\nPerson A: Shake that nasty butt...\n[Other Person]: Baby got back.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person A",
+        "text": "So shake it!"
+      },
+      {
+        "speaker": "Person B",
+        "text": "Shake it!"
+      },
+      {
+        "speaker": "Person A",
+        "text": "Shake it!"
+      },
+      {
+        "speaker": "Person B",
+        "text": "Shake it!"
+      },
+      {
+        "speaker": "Person A",
+        "text": "Shake that nasty butt..."
+      },
+      {
+        "speaker": "Person B",
+        "text": "Baby got back."
+      }
+    ],
+    "gold_response": "One more time from the top... I like big butts and I cannot lie, you other br...",
+    "generated_response": "Well, I guess we're in sync today. Let's keep the positive energy going!"
+  },
+  {
+    "conversation_id": "s10_e04_c02_u000",
+    "actual_partner": "Person B",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\n[Other Person]: That's the hope! So, is Person D awake yet?\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person B",
+        "text": "That's the hope! So, is Person D awake yet?"
+      }
+    ],
+    "gold_response": "Oh no, it's still nap time. But she'll be up soon.",
+    "generated_response": "Person D isn't here with us in this conversation. Let's focus on the present situation. How about we discuss the topic at hand instead?"
+  },
+  {
+    "conversation_id": "s04_e04_c01_u001",
+    "actual_partner": "Person C",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\n[Other Person]: Person A!\nPerson A: What?\n[Other Person]: You just put an empty carton back in the fridge!\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person C",
+        "text": "Person A!"
+      },
+      {
+        "speaker": "Person A",
+        "text": "What?"
+      },
+      {
+        "speaker": "Person C",
+        "text": "You just put an empty carton back in the fridge!"
+      }
+    ],
+    "gold_response": "Oh yeah, I know, but the garbage was full.",
+    "generated_response": "Oh, I'm so sorry. I must have missed seeing that it was empty. I'll take it out and recycle it properly. Thank you for bringing it to my attention."
+  },
+  {
+    "conversation_id": "s10_e15_c12_u000",
+    "actual_partner": "Person B",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\nPerson A: What?\n[Other Person]: It's what you want. You should go.\nPerson A: You really think so?\n[Other Person]: I really do.\nPerson A: But I already told Person D that I would come back...\n[Other Person]: I'm sure he'll understand.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person A",
+        "text": "What?"
+      },
+      {
+        "speaker": "Person B",
+        "text": "It's what you want. You should go."
+      },
+      {
+        "speaker": "Person A",
+        "text": "You really think so?"
+      },
+      {
+        "speaker": "Person B",
+        "text": "I really do."
+      },
+      {
+        "speaker": "Person A",
+        "text": "But I already told Person D that I would come back..."
+      },
+      {
+        "speaker": "Person B",
+        "text": "I'm sure he'll understand."
+      }
+    ],
+    "gold_response": "All right. ALL RIGHT! I'm gonna do it. I'm gonna go to Paris.",
+    "generated_response": "I'll have to think about it. Thanks for the advice."
+  },
+  {
+    "conversation_id": "s05_e05_c06_u001",
+    "actual_partner": "Person B",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\nPerson A: Hi!\n[Other Person]: Hey. Person A, I-I-I've been wanting to tell you something for a while now and I really, I just have to get it out.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person A",
+        "text": "Hi!"
+      },
+      {
+        "speaker": "Person B",
+        "text": "Hey. Person A, I-I-I've been wanting to tell you something for a while now and I really, I just have to get it out."
+      }
+    ],
+    "gold_response": "Okay, what's up?",
+    "generated_response": "Sure thing, go ahead. I'm here to listen."
+  },
+  {
+    "conversation_id": "s01_e01_c01_u001",
+    "actual_partner": "Person C",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\n[Other Person]: So you wanna tell us now, or are we waiting for four wet bridesmaids?\nPerson A: Oh God... well, it started about a half hour before the wedding. I was in the room where we were keeping all the presents, and I was looking at this gravy boat. This really gorgeous Lamauge gravy boat. When all of a sudden- Sweet 'n' Lo?- I realized that I was more turned on by this gravy boat than by Person D! And then I got really freaked out, and that's when it hit me: how much Person D looks like Mr. Potato Head. Y'know, I mean, I always knew looked familiar, but... Anyway, I just had to get out of there, and I started wondering 'Why am I doing this, and who am I doing this for?'. So anyway I just didn't know where to go, and I know that you and I have kinda drifted apart, but you're the only person I knew who lived here in the city.\n[Other Person]: Who wasn't invited to the wedding.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person C",
+        "text": "So you wanna tell us now, or are we waiting for four wet bridesmaids?"
+      },
+      {
+        "speaker": "Person A",
+        "text": "Oh God... well, it started about a half hour before the wedding. I was in the room where we were keeping all the presents, and I was looking at this gravy boat. This really gorgeous Lamauge gravy boat. When all of a sudden- Sweet 'n' Lo?- I realized that I was more turned on by this gravy boat than by Person D! And then I got really freaked out, and that's when it hit me: how much Person D looks like Mr. Potato Head. Y'know, I mean, I always knew looked familiar, but... Anyway, I just had to get out of there, and I started wondering 'Why am I doing this, and who am I doing this for?'. So anyway I just didn't know where to go, and I know that you and I have kinda drifted apart, but you're the only person I knew who lived here in the city."
+      },
+      {
+        "speaker": "Person C",
+        "text": "Who wasn't invited to the wedding."
+      }
+    ],
+    "gold_response": "Ooh, I was kinda hoping that wouldn't be an issue...",
+    "generated_response": "I know, I know. But I couldn't help it. I felt like I needed to tell someone, and you're the only one I trust. I'm sorry for the inconvenience. I didn't mean to cause any problems."
+  },
+  {
+    "conversation_id": "s02_e01_c07_u001",
+    "actual_partner": "Person B",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\n[Other Person]: So, uh, he's back.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person B",
+        "text": "So, uh, he's back."
+      }
+    ],
+    "gold_response": "Yeah, he's back. Is that a problem?",
+    "generated_response": "Who is \"he\" that you're referring to? I'd like to make sure I have all the information before I respond."
+  },
+  {
+    "conversation_id": "s01_e21_c02_u001",
+    "actual_partner": "Person C",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\nPerson A: You're not an artist.\n[Other Person]: Yeah, well I might be if I had the supplies! I mean, I could do all this stuff. Only I don't.\nPerson A: Oh, [Other Person], c'mon, you do cool things.\n[Other Person]: Oh really? Okay, let's compare, shall we.\nPerson A: Oh, it's so late for 'Shall we'...\n[Other Person]: Do I go horseback riding in the park? Do I take classes at the New School?\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person A",
+        "text": "You're not an artist."
+      },
+      {
+        "speaker": "Person C",
+        "text": "Yeah, well I might be if I had the supplies! I mean, I could do all this stuff. Only I don't."
+      },
+      {
+        "speaker": "Person A",
+        "text": "Oh, Person C, c'mon, you do cool things."
+      },
+      {
+        "speaker": "Person C",
+        "text": "Oh really? Okay, let's compare, shall we."
+      },
+      {
+        "speaker": "Person A",
+        "text": "Oh, it's so late for 'Shall we'..."
+      },
+      {
+        "speaker": "Person C",
+        "text": "Do I go horseback riding in the park? Do I take classes at the New School?"
+      }
+    ],
+    "gold_response": "Nooo...",
+    "generated_response": "You know what? Let's not compare, let's create instead. I'll help you get started with your art supplies."
+  },
+  {
+    "conversation_id": "s02_e08_c05_u001",
+    "actual_partner": "Person C",
+    "prompt": "You are generating dialogue as Person A.\n\nStudy the examples to learn Person A's general communication\nstyle and how it may vary depending on the person they are\nspeaking with.\n\nUse the examples to guide your response, while responding\nnaturally to the current conversation.\n\nGenerate exactly one response from Person A.\nDo not explain your reasoning or include a speaker label.\n\nEXAMPLES:\nExample — Person A and Person C\nPerson A: Person B said my name up there, I mean, come on, I just can't pretend that didn't happen can I?\nPerson C: Oh, I-I don't know.\nPerson A: Person C, what should I do?\nPerson C: Just uh, do the right thing.\nPerson A: What?\nPerson C: Toe the line. Thread the needle. Think outside the box!\nPerson A: Whoa, wait, listen, I think I'm just gonna talk to Person B about what he think it meant.\n\nExample — Person A and Person C\nPerson C: Why would I have the keys?\nPerson A: Aside from the fact that you said you had them?\n\nExample — Person A and Person B\nPerson B: And I'm fine never having heard it... Person A, can I... can I see you for a sec?\nPerson A: Yeah! Excuse me...\nPerson B: Do you realise that man has cried in our apartment three times...? Huh? I haven't cried that many times since I moved in.\nPerson A: Look, Person B, he's just... Sandy is just sensitive, that's all.\nPerson B: Okay, okay, see... that... that is the problem. He is too sensitive.\nPerson A: What...? Too sensitive to take care of our baby?\n\nExample — Person A and Person B\nPerson B: Ok, what the hell happened back there?\nPerson A: I don't know, you tell me. One minute I'm holding Person D like a football, the next thing I know, I've got two kids, I'm living in Scarsdale complaining about the taxes.\nPerson B: Well I'm sorry, I think about stuff. Ya know, I mean, you're at work, you're assembling bones, your mind wanders.\nPerson A: Person B, you have planned out the next 20 years of our lives, we've been dating for six weeks.\n\nNEW CONVERSATION:\n[Other Person]: Hey.\n\nPerson A:",
+    "context": [
+      {
+        "speaker": "Person C",
+        "text": "Hey."
+      }
+    ],
+    "gold_response": "Did uh, Person B call?",
+    "generated_response": "Hey there! How's your day going? Is there something specific you'd like to talk about? I'm all ears."
+  }
+]

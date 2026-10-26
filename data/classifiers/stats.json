@@ -1,0 +1,67 @@
+{
+  "heldout_scenes_excluded": 111,
+  "n_episodes": 236,
+  "n_test_episodes": 47,
+  "speaker_train": {
+    "n": 38923,
+    "labels": {
+      "Chandler": 6801,
+      "Joey": 6244,
+      "Monica": 6510,
+      "Phoebe": 5947,
+      "Rachel": 6823,
+      "Ross": 6598
+    }
+  },
+  "speaker_test": {
+    "n": 9116,
+    "labels": {
+      "Chandler": 1491,
+      "Joey": 1596,
+      "Monica": 1441,
+      "Phoebe": 1275,
+      "Rachel": 1520,
+      "Ross": 1793
+    }
+  },
+  "pair_train": {
+    "n": 2771,
+    "labels": {
+      "Chandler-Joey": 286,
+      "Chandler-Monica": 371,
+      "Chandler-Phoebe": 109,
+      "Chandler-Rachel": 80,
+      "Chandler-Ross": 187,
+      "Joey-Monica": 121,
+      "Joey-Phoebe": 139,
+      "Joey-Rachel": 153,
+      "Joey-Ross": 154,
+      "Monica-Phoebe": 220,
+      "Monica-Rachel": 193,
+      "Monica-Ross": 123,
+      "Phoebe-Rachel": 207,
+      "Phoebe-Ross": 103,
+      "Rachel-Ross": 325
+    }
+  },
+  "pair_test": {
+    "n": 659,
+    "labels": {
+      "Chandler-Joey": 72,
+      "Chandler-Monica": 64,
+      "Chandler-Phoebe": 23,
+      "Chandler-Rachel": 22,
+      "Chandler-Ross": 39,
+      "Joey-Monica": 24,
+      "Joey-Phoebe": 25,
+      "Joey-Rachel": 57,
+      "Joey-Ross": 56,
+      "Monica-Phoebe": 49,
+      "Monica-Rachel": 47,
+      "Monica-Ross": 37,
+      "Phoebe-Rachel": 47,
+      "Phoebe-Ross": 39,
+      "Rachel-Ross": 58
+    }
+  }
+}
