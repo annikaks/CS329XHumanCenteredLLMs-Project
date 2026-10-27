@@ -1,0 +1,96 @@
+{
+  "task": "rachel",
+  "model": "tinker-lora:Qwen/Qwen3-8B",
+  "rank": 16,
+  "lr": 0.0002,
+  "epochs": 2,
+  "batch_size": 128,
+  "class_weights": true,
+  "n_train": 35339,
+  "n_val": 1500,
+  "n_test": 9116,
+  "history": [
+    {
+      "epoch": -1,
+      "step": 0,
+      "sampler_path": null,
+      "val_score": 0.5476237563756184,
+      "val_acc": 0.26866666666666666
+    },
+    {
+      "epoch": 0,
+      "step": 277,
+      "sampler_path": "tinker://49f2964e-2221-52b2-95d9-9bcbbf6f20a2:train:0/sampler_weights/rachel-Qwen3-8B-r16-20261026-184810-ep0",
+      "val_score": 0.6358616773897205,
+      "val_acc": 0.5733333333333334,
+      "external_path": "tinker://49f2964e-2221-52b2-95d9-9bcbbf6f20a2:train:0/external_weights/rachel-Qwen3-8B-r16-20261026-184810-ep0-hf"
+    },
+    {
+      "epoch": 1,
+      "step": 554,
+      "sampler_path": "tinker://49f2964e-2221-52b2-95d9-9bcbbf6f20a2:train:0/sampler_weights/rachel-Qwen3-8B-r16-20261026-184810-ep1",
+      "val_score": 0.6675922411235762,
+      "val_acc": 0.598,
+      "external_path": "tinker://49f2964e-2221-52b2-95d9-9bcbbf6f20a2:train:0/external_weights/rachel-Qwen3-8B-r16-20261026-184810-ep1-hf"
+    }
+  ],
+  "best_sampler_path": "tinker://49f2964e-2221-52b2-95d9-9bcbbf6f20a2:train:0/sampler_weights/rachel-Qwen3-8B-r16-20261026-184810-ep1",
+  "final_state_path": "tinker://49f2964e-2221-52b2-95d9-9bcbbf6f20a2:train:0/weights/rachel-Qwen3-8B-r16-20261026-184810-final",
+  "classes": [
+    "Rachel",
+    "Other"
+  ],
+  "test_score": 0.6766405795293922,
+  "test_accuracy": 0.6118911803422554,
+  "base_model_val": {
+    "epoch": -1,
+    "step": 0,
+    "sampler_path": null,
+    "val_score": 0.5476237563756184,
+    "val_acc": 0.26866666666666666
+  },
+  "auc": 0.6766405795293922,
+  "auc_ci95": [
+    0.6607,
+    0.691
+  ],
+  "accuracy@0.5": 0.6118911803422554,
+  "balanced_accuracy@0.5": 0.6295008106759791,
+  "base_rate_rachel": 0.16673979815708645,
+  "auc_by_length": {
+    "1-3w": {
+      "auc": 0.6354111681622598,
+      "n": 2369
+    },
+    "4-7w": {
+      "auc": 0.6257302861673959,
+      "n": 2349
+    },
+    "8-15w": {
+      "auc": 0.6678915513833992,
+      "n": 2503
+    },
+    "16-infw": {
+      "auc": 0.772162982331986,
+      "n": 1895
+    }
+  },
+  "auc_aggregating_k_lines": {
+    "k=1": {
+      "auc": 0.6766405795293922,
+      "n": 9116
+    },
+    "k=3": {
+      "auc": 0.7885592478626178,
+      "n": 2472
+    },
+    "k=5": {
+      "auc": 0.8237848036609646,
+      "n": 1167
+    },
+    "k=10": {
+      "auc": 0.8979372197309418,
+      "n": 273
+    }
+  }
+}

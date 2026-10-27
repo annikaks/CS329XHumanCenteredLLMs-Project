@@ -1,0 +1,246 @@
+{
+  "task": "partner",
+  "model": "tinker-lora:Qwen/Qwen3-8B",
+  "rank": 8,
+  "lr": 0.0001,
+  "epochs": 3,
+  "batch_size": 32,
+  "class_weights": true,
+  "n_train": 7571,
+  "n_val": 748,
+  "n_test": 1056,
+  "history": [
+    {
+      "epoch": -1,
+      "step": 0,
+      "sampler_path": null,
+      "val_score": 0.5359845043310719,
+      "val_acc": 0.12433155080213903
+    },
+    {
+      "epoch": 0,
+      "step": 237,
+      "sampler_path": "tinker://d72c76a0-8df5-5582-8949-db5fdb3c48ff:train:0/sampler_weights/partner-Qwen3-8B-r8-20261026-165723-ep0",
+      "val_score": 0.5330810199268718,
+      "val_acc": 0.1270053475935829,
+      "external_path": "tinker://d72c76a0-8df5-5582-8949-db5fdb3c48ff:train:0/external_weights/partner-Qwen3-8B-r8-20261026-165723-ep0-hf"
+    },
+    {
+      "epoch": 1,
+      "step": 474,
+      "sampler_path": "tinker://d72c76a0-8df5-5582-8949-db5fdb3c48ff:train:0/sampler_weights/partner-Qwen3-8B-r8-20261026-165723-ep1",
+      "val_score": 0.5610404654421949,
+      "val_acc": 0.15240641711229946,
+      "external_path": "tinker://d72c76a0-8df5-5582-8949-db5fdb3c48ff:train:0/external_weights/partner-Qwen3-8B-r8-20261026-165723-ep1-hf"
+    },
+    {
+      "epoch": 2,
+      "step": 711,
+      "sampler_path": "tinker://d72c76a0-8df5-5582-8949-db5fdb3c48ff:train:0/sampler_weights/partner-Qwen3-8B-r8-20261026-165723-ep2",
+      "val_score": 0.5873820401157335,
+      "val_acc": 0.2339572192513369,
+      "external_path": "tinker://d72c76a0-8df5-5582-8949-db5fdb3c48ff:train:0/external_weights/partner-Qwen3-8B-r8-20261026-165723-ep2-hf"
+    }
+  ],
+  "best_sampler_path": "tinker://d72c76a0-8df5-5582-8949-db5fdb3c48ff:train:0/sampler_weights/partner-Qwen3-8B-r8-20261026-165723-ep2",
+  "final_state_path": "tinker://d72c76a0-8df5-5582-8949-db5fdb3c48ff:train:0/weights/partner-Qwen3-8B-r8-20261026-165723-final",
+  "classes": [
+    "Chandler",
+    "Joey",
+    "Monica",
+    "Other",
+    "Phoebe",
+    "Ross"
+  ],
+  "test_score": 0.5737686295214369,
+  "test_accuracy": 0.21022727272727273,
+  "base_model_val": {
+    "epoch": -1,
+    "step": 0,
+    "sampler_path": null,
+    "val_score": 0.5359845043310719,
+    "val_acc": 0.12433155080213903
+  },
+  "line_level": {
+    "n": 1056,
+    "accuracy": 0.21022727272727273,
+    "accuracy_ci95": [
+      0.1824,
+      0.2398
+    ],
+    "macro_f1": 0.20171591165550493,
+    "majority_baseline": 0.23674242424242425,
+    "chance_uniform": 0.16666666666666666,
+    "per_partner": {
+      "Chandler": {
+        "n": 51,
+        "ovr_auc": 0.4980197053945956,
+        "ovr_auc_ci95": [
+          0.3969,
+          0.5926
+        ],
+        "gap": -0.0001286230846729297,
+        "gap_ci95": [
+          -0.0138,
+          0.0133
+        ]
+      },
+      "Joey": {
+        "n": 250,
+        "ovr_auc": 0.5111315136476426,
+        "ovr_auc_ci95": [
+          0.4602,
+          0.5586
+        ],
+        "gap": 8.863704643424786e-06,
+        "gap_ci95": [
+          -0.0086,
+          0.0087
+        ]
+      },
+      "Monica": {
+        "n": 147,
+        "ovr_auc": 0.5461559761418319,
+        "ovr_auc_ci95": [
+          0.4825,
+          0.61
+        ],
+        "gap": 0.0036967507812598333,
+        "gap_ci95": [
+          -0.005,
+          0.0126
+        ]
+      },
+      "Other": {
+        "n": 222,
+        "ovr_auc": 0.7095350746429884,
+        "ovr_auc_ci95": [
+          0.6552,
+          0.7585
+        ],
+        "gap": 0.05533744558417131,
+        "gap_ci95": [
+          0.0396,
+          0.0715
+        ]
+      },
+      "Phoebe": {
+        "n": 156,
+        "ovr_auc": 0.6207977207977208,
+        "ovr_auc_ci95": [
+          0.5681,
+          0.6657
+        ],
+        "gap": 0.023929072121714523,
+        "gap_ci95": [
+          0.0125,
+          0.0395
+        ]
+      },
+      "Ross": {
+        "n": 230,
+        "ovr_auc": 0.5569717865038425,
+        "ovr_auc_ci95": [
+          0.4865,
+          0.6138
+        ],
+        "gap": 0.012631907316845853,
+        "gap_ci95": [
+          -0.0016,
+          0.0257
+        ]
+      }
+    }
+  },
+  "segment_level": {
+    "n": 287,
+    "accuracy": 0.2682926829268293,
+    "accuracy_ci95": [
+      0.2167,
+      0.3194
+    ],
+    "macro_f1": 0.2589222570280807,
+    "majority_baseline": 0.20209059233449478,
+    "chance_uniform": 0.16666666666666666,
+    "per_partner": {
+      "Chandler": {
+        "n": 22,
+        "ovr_auc": 0.51852487135506,
+        "ovr_auc_ci95": [
+          0.4091,
+          0.6266
+        ],
+        "gap": 0.0018836755243920589,
+        "gap_ci95": [
+          -0.0284,
+          0.0322
+        ]
+      },
+      "Joey": {
+        "n": 57,
+        "ovr_auc": 0.5124332570556827,
+        "ovr_auc_ci95": [
+          0.4311,
+          0.5939
+        ],
+        "gap": -0.006238809547030849,
+        "gap_ci95": [
+          -0.0357,
+          0.0231
+        ]
+      },
+      "Monica": {
+        "n": 47,
+        "ovr_auc": 0.586436170212766,
+        "ovr_auc_ci95": [
+          0.5035,
+          0.6715
+        ],
+        "gap": 0.012145206878022341,
+        "gap_ci95": [
+          -0.0108,
+          0.0362
+        ]
+      },
+      "Other": {
+        "n": 56,
+        "ovr_auc": 0.8246753246753248,
+        "ovr_auc_ci95": [
+          0.7493,
+          0.8919
+        ],
+        "gap": 0.20183338103503348,
+        "gap_ci95": [
+          0.1432,
+          0.2646
+        ]
+      },
+      "Phoebe": {
+        "n": 47,
+        "ovr_auc": 0.6803191489361702,
+        "ovr_auc_ci95": [
+          0.6008,
+          0.7596
+        ],
+        "gap": 0.07922851009126089,
+        "gap_ci95": [
+          0.0383,
+          0.1324
+        ]
+      },
+      "Ross": {
+        "n": 58,
+        "ovr_auc": 0.5783014606234002,
+        "ovr_auc_ci95": [
+          0.4769,
+          0.6713
+        ],
+        "gap": 0.05539361121054481,
+        "gap_ci95": [
+          -0.0002,
+          0.1118
+        ]
+      }
+    }
+  }
+}

@@ -165,8 +165,8 @@ def test_score_batch_reads_answer_position():
     assert (proba.argmax(1) == np.array([len(p) % len(ids) for p in prompts])).all()
 
 
-@pytest.mark.parametrize("task", ["partner", "rachel"])
-def test_train_loop_end_to_end(task, tmp_path, monkeypatch):
+@pytest.mark.parametrize("task,unit", [("partner", "line"), ("rachel", "line"), ("partner", "segment")])
+def test_train_loop_end_to_end(task, unit, tmp_path, monkeypatch):
     tok = _tokenizer()
     import train_tinker
 
@@ -177,9 +177,9 @@ def test_train_loop_end_to_end(task, tmp_path, monkeypatch):
     fake = FakeService(tok, root=tmp_path / "remote")
     monkeypatch.setattr(train_tinker, "make_service_client", lambda: fake)
     reg = tmp_path / "reg.json"
-    common = ["--task", task, "--epochs", "2", "--batch-size", "16", "--data-dir", str(data),
+    common = ["--task", task, "--epochs", "2", "--batch-size", "16" if unit == "line" else "4", "--data-dir", str(data),
               "--out-dir", str(tmp_path / "out"), "--registry", str(reg), "--model-dir", str(tmp_path / "models"),
-              "--val-frac", "0.25"]
+              "--val-frac", "0.25", "--unit", unit]
     train_tinker.main(common + ["--save-every", "3"])
     entry = json.loads(reg.read_text())[task]
     assert fake.sampling_calls[0].startswith("base:")  # untrained model scored first
@@ -193,7 +193,10 @@ def test_train_loop_end_to_end(task, tmp_path, monkeypatch):
     assert sorted(os.listdir(entry["local_adapter_dir"])) == ["adapter_config.json", "adapter_model.safetensors"]
     log = [json.loads(l) for l in open(tmp_path / "out" / "tinker_runs" / f"{entry['run']}.jsonl")]
     assert {"base_eval", "state", "sampler", "external"} <= {e["kind"] for e in log}
-    m = json.loads((tmp_path / "out" / f"{task}_tinker-Qwen3-8B_metrics.json").read_text())
+    tag = task + ("-seg" if unit == "segment" else "")
+    m = json.loads((tmp_path / "out" / f"{tag}_tinker-Qwen3-8B_metrics.json").read_text())
+    if unit == "segment":
+        assert m["n_test"] == len({r["segment_id"] for r in _rows(task)}) and entry["unit"] == "segment"
     assert [h["epoch"] for h in m["history"]] == [-1, 0, 1]
     assert m["base_model_val"]["epoch"] == -1
     assert ("auc" in m) if task == "rachel" else ("segment_level" in m and "per_partner" in m["line_level"])

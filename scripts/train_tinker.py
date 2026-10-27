@@ -48,6 +48,19 @@ def load(path):
         return [json.loads(line) for line in f]
 
 
+def to_segments(rows):
+    """One example per segment: all of Rachel's lines in it, in order (partner task only)."""
+    segs = {}
+    for r in rows:
+        segs.setdefault(r["segment_id"], []).append(r)
+    out = []
+    for sid, rs in segs.items():
+        rs = sorted(rs, key=lambda r: r.get("turn_index", 0))
+        out.append({**{k: rs[0][k] for k in ("conversation_id", "episode", "segment_id", "label")},
+                    "text": "\n".join(r["text"] for r in rs), "n_lines": len(rs)})
+    return out
+
+
 def make_service_client():
     import tinker
     return tinker.ServiceClient()
@@ -107,6 +120,8 @@ def main(argv=None):
     ap.add_argument("--model-dir", default="models/tinker")
     ap.add_argument("--state-ttl-days", type=float, default=30, help="expiry for intermediate states (finals never expire)")
     ap.add_argument("--dry-run", action="store_true", help="count tokens with the HF tokenizer; no Tinker calls")
+    ap.add_argument("--unit", choices=["line", "segment"], default="line",
+                    help="partner only: classify one Rachel line, or all of her lines in a segment at once")
     args = ap.parse_args(argv)
 
     from tinker import types
@@ -129,6 +144,9 @@ def main(argv=None):
 
     train = load(os.path.join(args.data_dir, f"{args.task}_train.jsonl"))
     test = load(os.path.join(args.data_dir, f"{args.task}_test.jsonl"))
+    if args.unit == "segment":
+        assert args.task == "partner", "--unit segment only applies to the partner task"
+        train, test = to_segments(train), to_segments(test)
     eps = sorted({r["episode"] for r in train})
     val_eps = set(rng.sample(eps, max(1, round(len(eps) * args.val_frac))))
     val = [r for r in train if r["episode"] in val_eps]
@@ -138,7 +156,7 @@ def main(argv=None):
     if len(val) > args.val_n:
         val = rng.sample(val, args.val_n)
 
-    run_name = args.run_name or f"{args.task}-{args.base_model.split('/')[-1]}-r{args.rank}-{time.strftime('%Y%m%d-%H%M%S')}"
+    run_name = args.run_name or f"{args.task}{'-seg' if args.unit == 'segment' else ''}-{args.base_model.split('/')[-1]}-r{args.rank}-{time.strftime('%Y%m%d-%H%M%S')}"
     ckpt_log = os.path.join(args.out_dir, "tinker_runs", f"{run_name}.jsonl")
     if args.resume:
         tc = service.create_training_client_from_state_with_optimizer(
@@ -228,7 +246,7 @@ def main(argv=None):
     else:
         test_detail = partner_metrics(test, proba, labels)
 
-    tag = f"{args.task}_tinker-{args.base_model.split('/')[-1]}"
+    tag = f"{args.task}{'-seg' if args.unit == 'segment' else ''}_tinker-{args.base_model.split('/')[-1]}"
     metrics = {
         "task": args.task, "model": f"tinker-lora:{args.base_model}", "rank": args.rank, "lr": args.lr,
         "epochs": args.epochs, "batch_size": args.batch_size, "class_weights": not args.no_class_weights,
@@ -247,7 +265,7 @@ def main(argv=None):
             registry = json.load(f)
     registry[args.task] = {
         "sampler_path": best["sampler_path"], "state_path": state_path, "base_model": args.base_model,
-        "rank": args.rank, "run": run_name, "best_epoch": best["epoch"],
+        "rank": args.rank, "run": run_name, "best_epoch": best["epoch"], "unit": args.unit,
         "external_path": best.get("external_path"), "local_adapter_dir": local_dir,
         "val_score": best["val_score"], "test_score": test_m["score"], "test_accuracy": test_m["acc"],
     }
@@ -264,6 +282,8 @@ def dry_run(args):
         epochs = args.epochs or DEFAULTS[task]["epochs"]
         train = load(os.path.join(args.data_dir, f"{task}_train.jsonl"))
         test = load(os.path.join(args.data_dir, f"{task}_test.jsonl"))
+        if task == "partner" and args.unit == "segment":
+            train, test = to_segments(train), to_segments(test)
         lens = np.array([len(encode_prompt(tok, task, r["text"])) for r in train])
         test_tok = sum(len(encode_prompt(tok, task, r["text"])) for r in test)
         n_val = min(args.val_n or DEFAULTS[task]["val_n"], round(len(train) * args.val_frac))
