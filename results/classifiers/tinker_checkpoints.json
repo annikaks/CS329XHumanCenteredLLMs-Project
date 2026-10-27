@@ -1,16 +1,17 @@
 {
   "partner": {
-    "sampler_path": "tinker://d72c76a0-8df5-5582-8949-db5fdb3c48ff:train:0/sampler_weights/partner-Qwen3-8B-r8-20261026-165723-ep2",
-    "state_path": "tinker://d72c76a0-8df5-5582-8949-db5fdb3c48ff:train:0/weights/partner-Qwen3-8B-r8-20261026-165723-final",
+    "sampler_path": "tinker://69be7f60-cc6e-563e-8768-2824873d5b71:train:0/sampler_weights/partner-seg-Qwen3-8B-r16-20261026-213226-ep2",
+    "state_path": "tinker://69be7f60-cc6e-563e-8768-2824873d5b71:train:0/weights/partner-seg-Qwen3-8B-r16-20261026-213226-final",
     "base_model": "Qwen/Qwen3-8B",
-    "rank": 8,
-    "run": "partner-Qwen3-8B-r8-20261026-165723",
+    "rank": 16,
+    "run": "partner-seg-Qwen3-8B-r16-20261026-213226",
     "best_epoch": 2,
-    "external_path": "tinker://d72c76a0-8df5-5582-8949-db5fdb3c48ff:train:0/external_weights/partner-Qwen3-8B-r8-20261026-165723-ep2-hf",
-    "local_adapter_dir": "models/tinker/partner-Qwen3-8B-r8-20261026-165723",
-    "val_score": 0.5873820401157335,
-    "test_score": 0.5737686295214369,
-    "test_accuracy": 0.21022727272727273
+    "unit": "segment",
+    "external_path": "tinker://69be7f60-cc6e-563e-8768-2824873d5b71:train:0/external_weights/partner-seg-Qwen3-8B-r16-20261026-213226-ep2-hf",
+    "local_adapter_dir": "models/tinker/partner-seg-Qwen3-8B-r16-20261026-213226",
+    "val_score": 0.5840760878060598,
+    "test_score": 0.6356122928502308,
+    "test_accuracy": 0.2682926829268293
   },
   "rachel": {
     "sampler_path": "tinker://49f2964e-2221-52b2-95d9-9bcbbf6f20a2:train:0/sampler_weights/rachel-Qwen3-8B-r16-20261026-184810-ep1",

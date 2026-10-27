@@ -1,0 +1,1141 @@
+{
+  "n": 40,
+  "summary": {
+    "gold_response": {
+      "mean_P_rachel": 0.5589568194933539,
+      "mean_P_true_partner": 0.1640838790328788,
+      "ross_gap": 0.001350241819851189,
+      "monica_gap": -0.0019150253906202175,
+      "ross_vs_monica_acc": 0.525
+    },
+    "generated_response": {
+      "mean_P_rachel": 0.3805092086871394,
+      "mean_P_true_partner": 0.16659646434540468,
+      "ross_gap": 0.004668437386325358,
+      "monica_gap": 0.0012916117227907142,
+      "ross_vs_monica_acc": 0.5
+    }
+  },
+  "examples": [
+    {
+      "conversation_id": "s03_e05_c14_u001",
+      "partner": "Ross",
+      "gold_response": {
+        "P_rachel": 0.5621765008857981,
+        "P_true_partner": 0.13909048185657652,
+        "partner_probs": {
+          "Chandler": 0.1786,
+          "Joey": 0.2024,
+          "Monica": 0.1786,
+          "Other": 0.1227,
+          "Phoebe": 0.1786,
+          "Ross": 0.1391
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.5621765008857981,
+        "P_true_partner": 0.14523944350091636,
+        "partner_probs": {
+          "Chandler": 0.2395,
+          "Joey": 0.1865,
+          "Monica": 0.1646,
+          "Other": 0.0777,
+          "Phoebe": 0.1865,
+          "Ross": 0.1452
+        }
+      }
+    },
+    {
+      "conversation_id": "s02_e07_c11_u001",
+      "partner": "Ross",
+      "gold_response": {
+        "P_rachel": 0.4073334000459302,
+        "P_true_partner": 0.13909048185657652,
+        "partner_probs": {
+          "Chandler": 0.1786,
+          "Joey": 0.2024,
+          "Monica": 0.1786,
+          "Other": 0.1227,
+          "Phoebe": 0.1786,
+          "Ross": 0.1391
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.32082130082460697,
+        "P_true_partner": 0.16031777287022952,
+        "partner_probs": {
+          "Chandler": 0.2059,
+          "Joey": 0.1817,
+          "Monica": 0.1817,
+          "Other": 0.1102,
+          "Phoebe": 0.1603,
+          "Ross": 0.1603
+        }
+      }
+    },
+    {
+      "conversation_id": "s01_e05_c12_u001",
+      "partner": "Ross",
+      "gold_response": {
+        "P_rachel": 0.5926665999540697,
+        "P_true_partner": 0.1488794297448998,
+        "partner_probs": {
+          "Chandler": 0.1912,
+          "Joey": 0.1687,
+          "Monica": 0.1912,
+          "Other": 0.1314,
+          "Phoebe": 0.1687,
+          "Ross": 0.1489
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.5621765008857981,
+        "P_true_partner": 0.16623320373441663,
+        "partner_probs": {
+          "Chandler": 0.1467,
+          "Joey": 0.1662,
+          "Monica": 0.1884,
+          "Other": 0.1662,
+          "Phoebe": 0.1662,
+          "Ross": 0.1662
+        }
+      }
+    },
+    {
+      "conversation_id": "s01_e09_c10_u001",
+      "partner": "Monica",
+      "gold_response": {
+        "P_rachel": 0.5312093733737563,
+        "P_true_partner": 0.17375215212420997,
+        "partner_probs": {
+          "Chandler": 0.1969,
+          "Joey": 0.1969,
+          "Monica": 0.1738,
+          "Other": 0.1054,
+          "Phoebe": 0.1738,
+          "Ross": 0.1533
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.24508500761839525,
+        "P_true_partner": 0.173249051231728,
+        "partner_probs": {
+          "Chandler": 0.2225,
+          "Joey": 0.1963,
+          "Monica": 0.1732,
+          "Other": 0.0818,
+          "Phoebe": 0.1732,
+          "Ross": 0.1529
+        }
+      }
+    },
+    {
+      "conversation_id": "s03_e25_c05_u001",
+      "partner": "Monica",
+      "gold_response": {
+        "P_rachel": 0.6513548646660542,
+        "P_true_partner": 0.1838202021063653,
+        "partner_probs": {
+          "Chandler": 0.1838,
+          "Joey": 0.1838,
+          "Monica": 0.1838,
+          "Other": 0.1432,
+          "Phoebe": 0.1622,
+          "Ross": 0.1432
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.5926665999540697,
+        "P_true_partner": 0.18015074633422276,
+        "partner_probs": {
+          "Chandler": 0.2041,
+          "Joey": 0.1802,
+          "Monica": 0.1802,
+          "Other": 0.0964,
+          "Phoebe": 0.1802,
+          "Ross": 0.159
+        }
+      }
+    },
+    {
+      "conversation_id": "s04_e24_c19_u001",
+      "partner": "Monica",
+      "gold_response": {
+        "P_rachel": 0.7057850278370112,
+        "P_true_partner": 0.17593073224356187,
+        "partner_probs": {
+          "Chandler": 0.1994,
+          "Joey": 0.1994,
+          "Monica": 0.1759,
+          "Other": 0.0942,
+          "Phoebe": 0.1759,
+          "Ross": 0.1553
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.5926665999540697,
+        "P_true_partner": 0.1842879251309677,
+        "partner_probs": {
+          "Chandler": 0.1435,
+          "Joey": 0.1843,
+          "Monica": 0.1843,
+          "Other": 0.1626,
+          "Phoebe": 0.1626,
+          "Ross": 0.1626
+        }
+      }
+    },
+    {
+      "conversation_id": "s05_e20_c08_u001",
+      "partner": "Monica",
+      "gold_response": {
+        "P_rachel": 0.5621765008857981,
+        "P_true_partner": 0.15958388422692962,
+        "partner_probs": {
+          "Chandler": 0.1596,
+          "Joey": 0.1808,
+          "Monica": 0.1596,
+          "Other": 0.1596,
+          "Phoebe": 0.1808,
+          "Ross": 0.1596
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.46879062662624377,
+        "P_true_partner": 0.1665008313138366,
+        "partner_probs": {
+          "Chandler": 0.1887,
+          "Joey": 0.1887,
+          "Monica": 0.1665,
+          "Other": 0.101,
+          "Phoebe": 0.1887,
+          "Ross": 0.1665
+        }
+      }
+    },
+    {
+      "conversation_id": "s05_e07_c09_u001",
+      "partner": "Monica",
+      "gold_response": {
+        "P_rachel": 0.4378234991142019,
+        "P_true_partner": 0.17863243064445933,
+        "partner_probs": {
+          "Chandler": 0.2294,
+          "Joey": 0.1786,
+          "Monica": 0.1786,
+          "Other": 0.0956,
+          "Phoebe": 0.1786,
+          "Ross": 0.1391
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.3486451217982255,
+        "P_true_partner": 0.18038186373665133,
+        "partner_probs": {
+          "Chandler": 0.1592,
+          "Joey": 0.1804,
+          "Monica": 0.1804,
+          "Other": 0.1592,
+          "Phoebe": 0.1804,
+          "Ross": 0.1405
+        }
+      }
+    },
+    {
+      "conversation_id": "s02_e02_c08_u001",
+      "partner": "Monica",
+      "gold_response": {
+        "P_rachel": 0.7057850340255386,
+        "P_true_partner": 0.17859571392318943,
+        "partner_probs": {
+          "Chandler": 0.2024,
+          "Joey": 0.1786,
+          "Monica": 0.1786,
+          "Other": 0.1227,
+          "Phoebe": 0.1786,
+          "Ross": 0.1391
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.2942149783515162,
+        "P_true_partner": 0.18221534805177253,
+        "partner_probs": {
+          "Chandler": 0.2065,
+          "Joey": 0.1822,
+          "Monica": 0.1822,
+          "Other": 0.0861,
+          "Phoebe": 0.1822,
+          "Ross": 0.1608
+        }
+      }
+    },
+    {
+      "conversation_id": "s04_e21_c28_u001",
+      "partner": "Monica",
+      "gold_response": {
+        "P_rachel": 0.6791787056691698,
+        "P_true_partner": 0.18986815339393875,
+        "partner_probs": {
+          "Chandler": 0.2151,
+          "Joey": 0.1899,
+          "Monica": 0.1899,
+          "Other": 0.0897,
+          "Phoebe": 0.1676,
+          "Ross": 0.1479
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.22270013882530884,
+        "P_true_partner": 0.18015074426337485,
+        "partner_probs": {
+          "Chandler": 0.2041,
+          "Joey": 0.1802,
+          "Monica": 0.1802,
+          "Other": 0.0964,
+          "Phoebe": 0.1802,
+          "Ross": 0.159
+        }
+      }
+    },
+    {
+      "conversation_id": "s09_e20_c01_u000",
+      "partner": "Monica",
+      "gold_response": {
+        "P_rachel": 0.4378234991142019,
+        "P_true_partner": 0.17444740208148984,
+        "partner_probs": {
+          "Chandler": 0.1977,
+          "Joey": 0.1977,
+          "Monica": 0.1744,
+          "Other": 0.1199,
+          "Phoebe": 0.1744,
+          "Ross": 0.1359
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.37754067580180184,
+        "P_true_partner": 0.19243502826172715,
+        "partner_probs": {
+          "Chandler": 0.1924,
+          "Joey": 0.1924,
+          "Monica": 0.1924,
+          "Other": 0.103,
+          "Phoebe": 0.1698,
+          "Ross": 0.1499
+        }
+      }
+    },
+    {
+      "conversation_id": "s02_e08_c05_u001",
+      "partner": "Monica",
+      "gold_response": {
+        "P_rachel": 0.3208212878370535,
+        "P_true_partner": 0.1898315462156582,
+        "partner_probs": {
+          "Chandler": 0.1898,
+          "Joey": 0.1898,
+          "Monica": 0.1898,
+          "Other": 0.1151,
+          "Phoebe": 0.1675,
+          "Ross": 0.1478
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.6076631627277604,
+        "P_true_partner": 0.17444739958816624,
+        "partner_probs": {
+          "Chandler": 0.1977,
+          "Joey": 0.1977,
+          "Monica": 0.1744,
+          "Other": 0.1199,
+          "Phoebe": 0.1744,
+          "Ross": 0.1359
+        }
+      }
+    },
+    {
+      "conversation_id": "s10_e17_c02_u000",
+      "partner": "Ross",
+      "gold_response": {
+        "P_rachel": 0.5312093733737563,
+        "P_true_partner": 0.12605531814972687,
+        "partner_probs": {
+          "Chandler": 0.1834,
+          "Joey": 0.1834,
+          "Monica": 0.1619,
+          "Other": 0.1619,
+          "Phoebe": 0.1834,
+          "Ross": 0.1261
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.32082129433083023,
+        "P_true_partner": 0.14941869367940244,
+        "partner_probs": {
+          "Chandler": 0.2174,
+          "Joey": 0.1919,
+          "Monica": 0.1693,
+          "Other": 0.1027,
+          "Phoebe": 0.1693,
+          "Ross": 0.1494
+        }
+      }
+    },
+    {
+      "conversation_id": "s01_e24_c08_u001",
+      "partner": "Monica",
+      "gold_response": {
+        "P_rachel": 0.5312093733737563,
+        "P_true_partner": 0.19090541628841892,
+        "partner_probs": {
+          "Chandler": 0.2163,
+          "Joey": 0.1909,
+          "Monica": 0.1909,
+          "Other": 0.1022,
+          "Phoebe": 0.1685,
+          "Ross": 0.1312
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.6791786926816161,
+        "P_true_partner": 0.19322546917201494,
+        "partner_probs": {
+          "Chandler": 0.219,
+          "Joey": 0.1932,
+          "Monica": 0.1932,
+          "Other": 0.0913,
+          "Phoebe": 0.1705,
+          "Ross": 0.1328
+        }
+      }
+    },
+    {
+      "conversation_id": "s03_e15_c04_u001",
+      "partner": "Ross",
+      "gold_response": {
+        "P_rachel": 0.754914975839675,
+        "P_true_partner": 0.15545283723356734,
+        "partner_probs": {
+          "Chandler": 0.1762,
+          "Joey": 0.1762,
+          "Monica": 0.1996,
+          "Other": 0.1372,
+          "Phoebe": 0.1555,
+          "Ross": 0.1555
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.4378234991142019,
+        "P_true_partner": 0.19555768160381715,
+        "partner_probs": {
+          "Chandler": 0.1344,
+          "Joey": 0.1726,
+          "Monica": 0.1523,
+          "Other": 0.1726,
+          "Phoebe": 0.1726,
+          "Ross": 0.1956
+        }
+      }
+    },
+    {
+      "conversation_id": "s02_e01_c07_u001",
+      "partner": "Ross",
+      "gold_response": {
+        "P_rachel": 0.42250463481418826,
+        "P_true_partner": 0.14887943207670712,
+        "partner_probs": {
+          "Chandler": 0.1912,
+          "Joey": 0.1687,
+          "Monica": 0.1912,
+          "Other": 0.1314,
+          "Phoebe": 0.1687,
+          "Ross": 0.1489
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.37754066879814546,
+        "P_true_partner": 0.151213900995383,
+        "partner_probs": {
+          "Chandler": 0.1942,
+          "Joey": 0.1942,
+          "Monica": 0.1713,
+          "Other": 0.1178,
+          "Phoebe": 0.1713,
+          "Ross": 0.1512
+        }
+      }
+    },
+    {
+      "conversation_id": "s10_e09_c05_u000",
+      "partner": "Ross",
+      "gold_response": {
+        "P_rachel": 0.8354835371034369,
+        "P_true_partner": 0.1488794297448998,
+        "partner_probs": {
+          "Chandler": 0.1687,
+          "Joey": 0.1912,
+          "Monica": 0.1912,
+          "Other": 0.1314,
+          "Phoebe": 0.1687,
+          "Ross": 0.1489
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.6224593312018546,
+        "P_true_partner": 0.18696526889198609,
+        "partner_probs": {
+          "Chandler": 0.1285,
+          "Joey": 0.187,
+          "Monica": 0.187,
+          "Other": 0.1456,
+          "Phoebe": 0.165,
+          "Ross": 0.187
+        }
+      }
+    },
+    {
+      "conversation_id": "s05_e01_c08_u001",
+      "partner": "Ross",
+      "gold_response": {
+        "P_rachel": 0.6513548714339145,
+        "P_true_partner": 0.15706130382748168,
+        "partner_probs": {
+          "Chandler": 0.1223,
+          "Joey": 0.1571,
+          "Monica": 0.1571,
+          "Other": 0.2285,
+          "Phoebe": 0.178,
+          "Ross": 0.1571
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.3208213138121609,
+        "P_true_partner": 0.1307360497292918,
+        "partner_probs": {
+          "Chandler": 0.1902,
+          "Joey": 0.1902,
+          "Monica": 0.1902,
+          "Other": 0.1307,
+          "Phoebe": 0.1679,
+          "Ross": 0.1307
+        }
+      }
+    },
+    {
+      "conversation_id": "s04_e24_c19_u001",
+      "partner": "Monica",
+      "gold_response": {
+        "P_rachel": 0.7310585786300049,
+        "P_true_partner": 0.17954010838939927,
+        "partner_probs": {
+          "Chandler": 0.1584,
+          "Joey": 0.1795,
+          "Monica": 0.1795,
+          "Other": 0.1234,
+          "Phoebe": 0.1795,
+          "Ross": 0.1795
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.32082130082460697,
+        "P_true_partner": 0.1630483931136477,
+        "partner_probs": {
+          "Chandler": 0.163,
+          "Joey": 0.163,
+          "Monica": 0.163,
+          "Other": 0.163,
+          "Phoebe": 0.1848,
+          "Ross": 0.163
+        }
+      }
+    },
+    {
+      "conversation_id": "s07_e16_c12_u001",
+      "partner": "Ross",
+      "gold_response": {
+        "P_rachel": 0.679178699175393,
+        "P_true_partner": 0.17658060636436596,
+        "partner_probs": {
+          "Chandler": 0.1558,
+          "Joey": 0.1558,
+          "Monica": 0.1558,
+          "Other": 0.1558,
+          "Phoebe": 0.2001,
+          "Ross": 0.1766
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.5926665999540697,
+        "P_true_partner": 0.15289175257929175,
+        "partner_probs": {
+          "Chandler": 0.2225,
+          "Joey": 0.1963,
+          "Monica": 0.1732,
+          "Other": 0.0818,
+          "Phoebe": 0.1732,
+          "Ross": 0.1529
+        }
+      }
+    },
+    {
+      "conversation_id": "s09_e05_c12_u000",
+      "partner": "Ross",
+      "gold_response": {
+        "P_rachel": 0.5621765008857981,
+        "P_true_partner": 0.16914894902805594,
+        "partner_probs": {
+          "Chandler": 0.1691,
+          "Joey": 0.1917,
+          "Monica": 0.1691,
+          "Other": 0.1317,
+          "Phoebe": 0.1691,
+          "Ross": 0.1691
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.32082129433083023,
+        "P_true_partner": 0.15525832627438316,
+        "partner_probs": {
+          "Chandler": 0.1994,
+          "Joey": 0.1994,
+          "Monica": 0.1759,
+          "Other": 0.0942,
+          "Phoebe": 0.1759,
+          "Ross": 0.1553
+        }
+      }
+    },
+    {
+      "conversation_id": "s02_e05_c07_u001",
+      "partner": "Ross",
+      "gold_response": {
+        "P_rachel": 0.6224593312018546,
+        "P_true_partner": 0.14887942741309224,
+        "partner_probs": {
+          "Chandler": 0.1912,
+          "Joey": 0.1687,
+          "Monica": 0.1912,
+          "Other": 0.1314,
+          "Phoebe": 0.1687,
+          "Ross": 0.1489
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.3208213138121609,
+        "P_true_partner": 0.15474434593313216,
+        "partner_probs": {
+          "Chandler": 0.1987,
+          "Joey": 0.1753,
+          "Monica": 0.1753,
+          "Other": 0.1205,
+          "Phoebe": 0.1753,
+          "Ross": 0.1547
+        }
+      }
+    },
+    {
+      "conversation_id": "s01_e21_c02_u001",
+      "partner": "Monica",
+      "gold_response": {
+        "P_rachel": 0.4378234991142019,
+        "P_true_partner": 0.1834094056748185,
+        "partner_probs": {
+          "Chandler": 0.1834,
+          "Joey": 0.1619,
+          "Monica": 0.1834,
+          "Other": 0.1261,
+          "Phoebe": 0.1834,
+          "Ross": 0.1619
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.24508500761839525,
+        "P_true_partner": 0.1769401534334802,
+        "partner_probs": {
+          "Chandler": 0.2005,
+          "Joey": 0.2005,
+          "Monica": 0.1769,
+          "Other": 0.1073,
+          "Phoebe": 0.1769,
+          "Ross": 0.1378
+        }
+      }
+    },
+    {
+      "conversation_id": "s02_e04_c11_u001",
+      "partner": "Ross",
+      "gold_response": {
+        "P_rachel": 0.5926665999540697,
+        "P_true_partner": 0.15958388422692962,
+        "partner_probs": {
+          "Chandler": 0.1596,
+          "Joey": 0.1808,
+          "Monica": 0.1808,
+          "Other": 0.1596,
+          "Phoebe": 0.1596,
+          "Ross": 0.1596
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.10669059252545564,
+        "P_true_partner": 0.1461244868026489,
+        "partner_probs": {
+          "Chandler": 0.2126,
+          "Joey": 0.1876,
+          "Monica": 0.1876,
+          "Other": 0.1004,
+          "Phoebe": 0.1656,
+          "Ross": 0.1461
+        }
+      }
+    },
+    {
+      "conversation_id": "s02_e02_c08_u001",
+      "partner": "Monica",
+      "gold_response": {
+        "P_rachel": 0.5926665999540697,
+        "P_true_partner": 0.19857517375308342,
+        "partner_probs": {
+          "Chandler": 0.1547,
+          "Joey": 0.1986,
+          "Monica": 0.1986,
+          "Other": 0.1365,
+          "Phoebe": 0.1752,
+          "Ross": 0.1365
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.3486451285660856,
+        "P_true_partner": 0.1835801935795,
+        "partner_probs": {
+          "Chandler": 0.208,
+          "Joey": 0.1836,
+          "Monica": 0.1836,
+          "Other": 0.0983,
+          "Phoebe": 0.1836,
+          "Ross": 0.143
+        }
+      }
+    },
+    {
+      "conversation_id": "s08_e18_c04_u001",
+      "partner": "Ross",
+      "gold_response": {
+        "P_rachel": 0.679178699175393,
+        "P_true_partner": 0.14986855070060104,
+        "partner_probs": {
+          "Chandler": 0.1924,
+          "Joey": 0.1924,
+          "Monica": 0.1924,
+          "Other": 0.103,
+          "Phoebe": 0.1698,
+          "Ross": 0.1499
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.22270014914315833,
+        "P_true_partner": 0.14464247893482368,
+        "partner_probs": {
+          "Chandler": 0.2105,
+          "Joey": 0.1857,
+          "Monica": 0.1857,
+          "Other": 0.0877,
+          "Phoebe": 0.1857,
+          "Ross": 0.1446
+        }
+      }
+    },
+    {
+      "conversation_id": "s03_e12_c15_u001",
+      "partner": "Ross",
+      "gold_response": {
+        "P_rachel": 0.37754066879814546,
+        "P_true_partner": 0.14112596181730327,
+        "partner_probs": {
+          "Chandler": 0.2053,
+          "Joey": 0.1812,
+          "Monica": 0.1812,
+          "Other": 0.1099,
+          "Phoebe": 0.1812,
+          "Ross": 0.1411
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.5312093733737563,
+        "P_true_partner": 0.17458779574574274,
+        "partner_probs": {
+          "Chandler": 0.0935,
+          "Joey": 0.136,
+          "Monica": 0.1541,
+          "Other": 0.2878,
+          "Phoebe": 0.1541,
+          "Ross": 0.1746
+        }
+      }
+    },
+    {
+      "conversation_id": "s04_e24_c19_u001",
+      "partner": "Monica",
+      "gold_response": {
+        "P_rachel": 0.718594386544335,
+        "P_true_partner": 0.1723393510453329,
+        "partner_probs": {
+          "Chandler": 0.2213,
+          "Joey": 0.1953,
+          "Monica": 0.1723,
+          "Other": 0.1045,
+          "Phoebe": 0.1723,
+          "Ross": 0.1342
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.4073334000459302,
+        "P_true_partner": 0.17663794690282664,
+        "partner_probs": {
+          "Chandler": 0.1376,
+          "Joey": 0.1766,
+          "Monica": 0.1766,
+          "Other": 0.1559,
+          "Phoebe": 0.1766,
+          "Ross": 0.1766
+        }
+      }
+    },
+    {
+      "conversation_id": "s09_e21_c02_u000",
+      "partner": "Monica",
+      "gold_response": {
+        "P_rachel": 0.5774953651858118,
+        "P_true_partner": 0.17534831873411003,
+        "partner_probs": {
+          "Chandler": 0.1987,
+          "Joey": 0.1753,
+          "Monica": 0.1753,
+          "Other": 0.1205,
+          "Phoebe": 0.1753,
+          "Ross": 0.1547
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.5,
+        "P_true_partner": 0.169313563674828,
+        "partner_probs": {
+          "Chandler": 0.2174,
+          "Joey": 0.1919,
+          "Monica": 0.1693,
+          "Other": 0.1027,
+          "Phoebe": 0.1693,
+          "Ross": 0.1494
+        }
+      }
+    },
+    {
+      "conversation_id": "s05_e22_c04_u001",
+      "partner": "Monica",
+      "gold_response": {
+        "P_rachel": 0.37754066879814546,
+        "P_true_partner": 0.17134779799511848,
+        "partner_probs": {
+          "Chandler": 0.1942,
+          "Joey": 0.1942,
+          "Monica": 0.1713,
+          "Other": 0.1178,
+          "Phoebe": 0.1713,
+          "Ross": 0.1512
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.24508502416032488,
+        "P_true_partner": 0.1687024955089044,
+        "partner_probs": {
+          "Chandler": 0.1314,
+          "Joey": 0.1912,
+          "Monica": 0.1687,
+          "Other": 0.1489,
+          "Phoebe": 0.1687,
+          "Ross": 0.1912
+        }
+      }
+    },
+    {
+      "conversation_id": "s10_e15_c01_u000",
+      "partner": "Ross",
+      "gold_response": {
+        "P_rachel": 0.6791786926816161,
+        "P_true_partner": 0.14962285817238455,
+        "partner_probs": {
+          "Chandler": 0.1695,
+          "Joey": 0.1695,
+          "Monica": 0.1921,
+          "Other": 0.1496,
+          "Phoebe": 0.1695,
+          "Ross": 0.1496
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.11920292358664389,
+        "P_true_partner": 0.1512437270143815,
+        "partner_probs": {
+          "Chandler": 0.2201,
+          "Joey": 0.1942,
+          "Monica": 0.1714,
+          "Other": 0.0917,
+          "Phoebe": 0.1714,
+          "Ross": 0.1512
+        }
+      }
+    },
+    {
+      "conversation_id": "s09_e07_c13_u000",
+      "partner": "Ross",
+      "gold_response": {
+        "P_rachel": 0.13296425050508953,
+        "P_true_partner": 0.15525832627438316,
+        "partner_probs": {
+          "Chandler": 0.1994,
+          "Joey": 0.1994,
+          "Monica": 0.1759,
+          "Other": 0.0942,
+          "Phoebe": 0.1759,
+          "Ross": 0.1553
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.2942149783515162,
+        "P_true_partner": 0.1643227751593877,
+        "partner_probs": {
+          "Chandler": 0.211,
+          "Joey": 0.1862,
+          "Monica": 0.1643,
+          "Other": 0.088,
+          "Phoebe": 0.1862,
+          "Ross": 0.1643
+        }
+      }
+    },
+    {
+      "conversation_id": "s10_e04_c02_u000",
+      "partner": "Ross",
+      "gold_response": {
+        "P_rachel": 0.45326184801538616,
+        "P_true_partner": 0.15121390311823613,
+        "partner_probs": {
+          "Chandler": 0.1942,
+          "Joey": 0.1713,
+          "Monica": 0.1942,
+          "Other": 0.1178,
+          "Phoebe": 0.1713,
+          "Ross": 0.1512
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.20181321265898594,
+        "P_true_partner": 0.16031777076444936,
+        "partner_probs": {
+          "Chandler": 0.1817,
+          "Joey": 0.2059,
+          "Monica": 0.1603,
+          "Other": 0.1102,
+          "Phoebe": 0.1817,
+          "Ross": 0.1603
+        }
+      }
+    },
+    {
+      "conversation_id": "s04_e04_c01_u001",
+      "partner": "Monica",
+      "gold_response": {
+        "P_rachel": 0.7057850216484838,
+        "P_true_partner": 0.182423981428411,
+        "partner_probs": {
+          "Chandler": 0.2067,
+          "Joey": 0.161,
+          "Monica": 0.1824,
+          "Other": 0.1254,
+          "Phoebe": 0.1824,
+          "Ross": 0.1421
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.5,
+        "P_true_partner": 0.14607774524223638,
+        "partner_probs": {
+          "Chandler": 0.1004,
+          "Joey": 0.1138,
+          "Monica": 0.1461,
+          "Other": 0.3971,
+          "Phoebe": 0.1289,
+          "Ross": 0.1138
+        }
+      }
+    },
+    {
+      "conversation_id": "s10_e15_c12_u000",
+      "partner": "Ross",
+      "gold_response": {
+        "P_rachel": 0.6513548511303336,
+        "P_true_partner": 0.15124372866831343,
+        "partner_probs": {
+          "Chandler": 0.2201,
+          "Joey": 0.1942,
+          "Monica": 0.1714,
+          "Other": 0.0917,
+          "Phoebe": 0.1714,
+          "Ross": 0.1512
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.22270014398423357,
+        "P_true_partner": 0.15474435037940457,
+        "partner_probs": {
+          "Chandler": 0.1987,
+          "Joey": 0.1753,
+          "Monica": 0.1753,
+          "Other": 0.1205,
+          "Phoebe": 0.1753,
+          "Ross": 0.1547
+        }
+      }
+    },
+    {
+      "conversation_id": "s05_e05_c06_u001",
+      "partner": "Ross",
+      "gold_response": {
+        "P_rachel": 0.48438008427698437,
+        "P_true_partner": 0.12478637330102794,
+        "partner_probs": {
+          "Chandler": 0.1816,
+          "Joey": 0.2057,
+          "Monica": 0.1816,
+          "Other": 0.1248,
+          "Phoebe": 0.1816,
+          "Ross": 0.1248
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.36296921241058616,
+        "P_true_partner": 0.1463197422950889,
+        "partner_probs": {
+          "Chandler": 0.1463,
+          "Joey": 0.1879,
+          "Monica": 0.1879,
+          "Other": 0.1658,
+          "Phoebe": 0.1658,
+          "Ross": 0.1463
+        }
+      }
+    },
+    {
+      "conversation_id": "s01_e01_c01_u001",
+      "partner": "Monica",
+      "gold_response": {
+        "P_rachel": 0.5,
+        "P_true_partner": 0.17534831873411003,
+        "partner_probs": {
+          "Chandler": 0.1987,
+          "Joey": 0.1753,
+          "Monica": 0.1753,
+          "Other": 0.1205,
+          "Phoebe": 0.1753,
+          "Ross": 0.1547
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.5926665999540697,
+        "P_true_partner": 0.2072354211620443,
+        "partner_probs": {
+          "Chandler": 0.1614,
+          "Joey": 0.1829,
+          "Monica": 0.2072,
+          "Other": 0.1257,
+          "Phoebe": 0.1614,
+          "Ross": 0.1614
+        }
+      }
+    },
+    {
+      "conversation_id": "s02_e01_c07_u001",
+      "partner": "Ross",
+      "gold_response": {
+        "P_rachel": 0.37754066879814546,
+        "P_true_partner": 0.13277573608621793,
+        "partner_probs": {
+          "Chandler": 0.1932,
+          "Joey": 0.1932,
+          "Monica": 0.1932,
+          "Other": 0.1172,
+          "Phoebe": 0.1705,
+          "Ross": 0.1328
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.29421497216298875,
+        "P_true_partner": 0.15525832627438316,
+        "partner_probs": {
+          "Chandler": 0.1994,
+          "Joey": 0.1994,
+          "Monica": 0.1759,
+          "Other": 0.0942,
+          "Phoebe": 0.1759,
+          "Ross": 0.1553
+        }
+      }
+    },
+    {
+      "conversation_id": "s01_e21_c02_u001",
+      "partner": "Monica",
+      "gold_response": {
+        "P_rachel": 0.651354857898194,
+        "P_true_partner": 0.17663794690282664,
+        "partner_probs": {
+          "Chandler": 0.1766,
+          "Joey": 0.1766,
+          "Monica": 0.1766,
+          "Other": 0.1376,
+          "Phoebe": 0.1766,
+          "Ross": 0.1559
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.22270013366638422,
+        "P_true_partner": 0.18308446861579536,
+        "partner_probs": {
+          "Chandler": 0.2075,
+          "Joey": 0.2075,
+          "Monica": 0.1831,
+          "Other": 0.0763,
+          "Phoebe": 0.1831,
+          "Ross": 0.1426
+        }
+      }
+    },
+    {
+      "conversation_id": "s02_e08_c05_u001",
+      "partner": "Monica",
+      "gold_response": {
+        "P_rachel": 0.45326184801538616,
+        "P_true_partner": 0.1795401057483737,
+        "partner_probs": {
+          "Chandler": 0.1795,
+          "Joey": 0.1795,
+          "Monica": 0.1795,
+          "Other": 0.1795,
+          "Phoebe": 0.1584,
+          "Ross": 0.1234
+        }
+      },
+      "generated_response": {
+        "P_rachel": 0.29421497216298875,
+        "P_true_partner": 0.1360558923359014,
+        "partner_probs": {
+          "Chandler": 0.1747,
+          "Joey": 0.2243,
+          "Monica": 0.1361,
+          "Other": 0.1361,
+          "Phoebe": 0.1747,
+          "Ross": 0.1542
+        }
+      }
+    }
+  ]
+}
